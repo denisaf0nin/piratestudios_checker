@@ -51,6 +51,7 @@
 
   // ---- state ---------------------------------------------------------------
   var data = null;        // loaded schedule.json
+  var server = false;     // true when the Cloudflare helper is there; then no GitHub key is needed
   var busy = false;
   var saved = {};
   try { saved = JSON.parse(store("filters") || "{}"); } catch (e) { saved = {}; }
@@ -160,16 +161,47 @@
       });
   }
   function loadData() {
-    // Prefer the GitHub API (always the newest file); fall back to this site's copy.
-    var viaApi = gh("/contents/" + DATA_PATH + "?ref=" + BRANCH + "&t=" + Date.now(), { accept: "application/vnd.github.raw+json" })
-      .then(function (txt) { return JSON.parse(txt); });
+    // Prefer the helper or the GitHub API (always the newest file); fall back to this site's copy.
+    var viaApi = server
+      ? fetch("api/data?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("no data"); return r.json(); })
+      : gh("/contents/" + DATA_PATH + "?ref=" + BRANCH + "&t=" + Date.now(), { accept: "application/vnd.github.raw+json" })
+        .then(function (txt) { return JSON.parse(txt); });
     return viaApi.catch(function () {
       return fetch("data/schedule.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("no data"); return r.json(); });
     }).then(function (d) { if (!d || !d.rooms || !d.rooms.length) throw new Error("empty data"); data = d; store("schedule", JSON.stringify(d)); showDataInfo(); return d; });
   }
   function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
 
+  function api(path, body) {
+    return fetch(path, body ? { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body), cache: "no-store" } : { cache: "no-store" })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { if (!r.ok) throw new Error(j.error || ("Error " + r.status)); return j; }); });
+  }
+  function runFetchViaHelper(from, to) {
+    var started = Date.now(), days = daysBetween(from, to) + 1;
+    var estimate = Math.ceil((days * SITES.length * 2.2 + 60) / 60);
+    function tick(msg) {
+      var secs = Math.round((Date.now() - started) / 1000);
+      status('<span class="spinner"></span>' + msg + " (" + Math.floor(secs / 60) + ":" + pad(secs % 60) + ", usually about " + estimate + " min). You can leave this screen open.");
+    }
+    tick("Starting the fetch for " + days + " day" + (days > 1 ? "s" : ""));
+    return api("api/fetch", { start: from, end: to }).then(function (r) {
+      var id = r.id;
+      if (r.joined) tick("Someone is already fetching these dates, waiting for it");
+      function poll() {
+        return sleep(POLL_MS).then(function () { return api("api/run?id=" + encodeURIComponent(id)); }).then(function (run) {
+          if (run.status === "starting" && Date.now() - started > 3 * 60000) throw new Error("GitHub did not start the fetch. Try again in a minute.");
+          if (run.status !== "completed") { tick(run.status === "queued" || run.status === "starting" ? "Waiting for GitHub to start" : "Fetching studio data"); return poll(); }
+          if (run.conclusion !== "success") throw new Error('The fetch failed on GitHub.' + (run.url ? ' <a href="' + esc(run.url) + '" target="_blank" rel="noopener">See what happened</a>.' : ""));
+          tick("Loading results");
+          return sleep(2000).then(loadData);
+        });
+      }
+      return poll();
+    });
+  }
+
   function runFetch(from, to) {
+    if (server) return runFetchViaHelper(from, to);
     if (!token()) {
       status('New dates need new data, and that needs your GitHub key. Add it in <b>Settings</b> (one time only).', true);
       return Promise.reject(new Error("no token"));
@@ -294,6 +326,11 @@
   $("searchBtn").addEventListener("click", function () { search(false); });
   $("refreshBtn").addEventListener("click", function () { showTab("search"); search(true); });
 
+  function useHelper() {
+    server = true;
+    $("tokenGroup").hidden = true;
+  }
+
   // ---- token -------------------------------------------------------------------
   function showToken() { $("tokenState").textContent = token() ? "A key is saved on this device." : "No key saved yet."; $("token").value = ""; }
   $("saveToken").addEventListener("click", function () {
@@ -311,6 +348,10 @@
   showToken();
   try { data = JSON.parse(store("schedule") || "null"); } catch (e) { data = null; }
   showDataInfo();
-  loadData().catch(function () {});
+  fetch("api/health", { cache: "no-store" })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (j) { if (j && j.ok) useHelper(j); }, function () {})
+    .then(function () { return loadData(); })
+    .catch(function () {});
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(function () {});
 })();

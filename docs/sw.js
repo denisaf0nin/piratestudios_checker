@@ -1,5 +1,5 @@
 // Keeps the app working offline. Always tries the network first so updates show up.
-var CACHE = "studio-finder-v1";
+var CACHE = "studio-finder-v2";
 var SHELL = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest", "icons/icon-192.png"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(SHELL); }).then(function () { return self.skipWaiting(); }));
@@ -11,7 +11,7 @@ self.addEventListener("activate", function (e) {
 });
 self.addEventListener("fetch", function (e) {
   var url = new URL(e.request.url);
-  if (e.request.method !== "GET" || url.origin !== location.origin) return;
+  if (e.request.method !== "GET" || url.origin !== location.origin || url.pathname.indexOf("/api/") >= 0 || url.pathname.indexOf("/data/") >= 0) return;
   e.respondWith(fetch(e.request).then(function (r) {
     var copy = r.clone();
     caches.open(CACHE).then(function (c) { c.put(e.request, copy); });
