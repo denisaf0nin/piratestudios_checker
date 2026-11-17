@@ -1,0 +1,365 @@
+{
+  "description": "Pirate Studios London sites and their deck_slug values for api.pirate.com/v1/search.",
+  "collected": "2026-11-17",
+  "sources": [
+    "https://pirate.com/en/locations/london/ (booking links carry ?site=<deck_slug>)",
+    "https://api.pirate.com/sites (site list used by book.pirate.com)",
+    "https://api.pirate.com/v1/search (one call per site, start_time 2026-11-24T18:00:00, duration 1)"
+  ],
+  "search_api": {
+    "url": "https://api.pirate.com/v1/search",
+    "params": {
+      "deck_slug": "<site deck_slug>",
+      "duration": "<hours, int>",
+      "start_time": "YYYY-MM-DDTHH:MM:SS"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "Accept-Language": "en"
+    },
+    "rehearsal_type_filter": "studio_type.name starts with 'Rehearsal' (Lite, Standard, Pro, plus Extra at Camden and Acoustic at Dalston)"
+  },
+  "notes": [
+    "Studio room lists are a snapshot; rooms can change. The app should read studio_type.name from each search response rather than rely on this list.",
+    "Slot times in the response are returned with +00:00 offsets; the response window is wider than the requested hours."
+  ],
+  "sites": [
+    {
+      "deck_slug": "london-camden",
+      "site_id": 36,
+      "name": "London, Camden",
+      "area": "Camden",
+      "address": "23-25 Hampshire Street, London",
+      "postcode": "NW5 2TE",
+      "lat": 51.5485729,
+      "lng": -0.1309388,
+      "rehearsal": {
+        "Rehearsal Lite": [
+          "Studio 23",
+          "Studio 25",
+          "Studio 31"
+        ],
+        "Rehearsal Standard": [
+          "Studio 19",
+          "Studio 20",
+          "Studio 24"
+        ],
+        "Rehearsal Pro": [
+          "Studio 13",
+          "Studio 16",
+          "Studio 17",
+          "Studio 21",
+          "Studio 22",
+          "Studio 32"
+        ],
+        "Rehearsal Extra": [
+          "Studio 37"
+        ]
+      },
+      "notes": null,
+      "rehearsal_types": [
+        "Rehearsal Lite",
+        "Rehearsal Standard",
+        "Rehearsal Pro",
+        "Rehearsal Extra"
+      ],
+      "rehearsal_room_count": 13,
+      "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
+    },
+    {
+      "deck_slug": "croydon-purley-way",
+      "site_id": 19,
+      "name": "London, Croydon, Purley Way",
+      "area": "Croydon",
+      "address": "Unit 8, New South Quarter, Purley Way, Croydon",
+      "postcode": "CR0 4WF",
+      "lat": 51.3730654,
+      "lng": -0.1179178,
+      "rehearsal": {
+        "Rehearsal Lite": [
+          "Studio 19",
+          "Studio 20"
+        ],
+        "Rehearsal Standard": [
+          "Studio 18"
+        ],
+        "Rehearsal Pro": [
+          "Studio 15",
+          "Studio 16",
+          "Studio 17"
+        ]
+      },
+      "notes": null,
+      "rehearsal_types": [
+        "Rehearsal Lite",
+        "Rehearsal Standard",
+        "Rehearsal Pro"
+      ],
+      "rehearsal_room_count": 6,
+      "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
+    },
+    {
+      "deck_slug": "london-dalston",
+      "site_id": 29,
+      "name": "London, Dalston",
+      "area": "Dalston",
+      "address": "42-56 Tottenham Road, London",
+      "postcode": "N1 4BZ",
+      "lat": 51.5452597,
+      "lng": -0.078047,
+      "rehearsal": {
+        "Rehearsal Lite": [
+          "Studio 1"
+        ],
+        "Rehearsal Standard": [
+          "Studio 3",
+          "Studio 4",
+          "Studio 21"
+        ],
+        "Rehearsal Pro": [
+          "Studio 8",
+          "Studio 10",
+          "Studio 13"
+        ],
+        "Rehearsal Acoustic": [
+          "Studio 38"
+        ]
+      },
+      "notes": null,
+      "rehearsal_types": [
+        "Rehearsal Lite",
+        "Rehearsal Standard",
+        "Rehearsal Pro",
+        "Rehearsal Acoustic"
+      ],
+      "rehearsal_room_count": 8,
+      "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
+    },
+    {
+      "deck_slug": "london-lydden-road-earlsfield",
+      "site_id": 4,
+      "name": "London, Earlsfield, Lydden Road",
+      "area": "Earlsfield",
+      "address": "17 Lydden Road, Earlsfield, London",
+      "postcode": "SW18 4LT",
+      "lat": 51.447031,
+      "lng": -0.1914923,
+      "rehearsal": {
+        "Rehearsal Lite": [
+          "Studio 5",
+          "Studio 6",
+          "Studio 7",
+          "Studio 8"
+        ],
+        "Rehearsal Standard": [
+          "Studio 9",
+          "Studio 10",
+          "Studio 11",
+          "Studio 12"
+        ],
+        "Rehearsal Pro": [
+          "Studio 1",
+          "Studio 2",
+          "Studio 3",
+          "Studio 4",
+          "Studio 13",
+          "Studio 15",
+          "Studio 16"
+        ]
+      },
+      "notes": null,
+      "rehearsal_types": [
+        "Rehearsal Lite",
+        "Rehearsal Standard",
+        "Rehearsal Pro"
+      ],
+      "rehearsal_room_count": 15,
+      "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
+    },
+    {
+      "deck_slug": "london-greenwich-bugsby-s-way",
+      "site_id": 17,
+      "name": "London, Greenwich, Bugsby's Way",
+      "area": "Greenwich",
+      "address": "Unit 2, 22 Bugsby's Way, London",
+      "postcode": "SE7 7SJ",
+      "lat": 51.491412,
+      "lng": 0.028397,
+      "rehearsal": {
+        "Rehearsal Lite": [
+          "Studio 4",
+          "Studio 14"
+        ],
+        "Rehearsal Standard": [
+          "Studio 10",
+          "Studio 12"
+        ],
+        "Rehearsal Pro": [
+          "Studio 5",
+          "Studio 9",
+          "Studio 11",
+          "Studio 13",
+          "Studio 15"
+        ]
+      },
+      "notes": null,
+      "rehearsal_types": [
+        "Rehearsal Lite",
+        "Rehearsal Standard",
+        "Rehearsal Pro"
+      ],
+      "rehearsal_room_count": 9,
+      "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
+    },
+    {
+      "deck_slug": "london-hackney",
+      "site_id": 30,
+      "name": "London, Hackney",
+      "area": "Hackney",
+      "address": "13 Rothbury Road, London",
+      "postcode": "E9 5HA",
+      "lat": 51.5421399,
+      "lng": -0.0266619,
+      "rehearsal": {
+        "Rehearsal Lite": [
+          "Studio 5"
+        ],
+        "Rehearsal Standard": [
+          "Studio 4"
+        ]
+      },
+      "notes": null,
+      "rehearsal_types": [
+        "Rehearsal Lite",
+        "Rehearsal Standard"
+      ],
+      "rehearsal_room_count": 2,
+      "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
+    },
+    {
+      "deck_slug": "london-notting-hill-the-arches",
+      "site_id": 15,
+      "name": "London, Notting Hill, The Arches",
+      "area": "Notting Hill",
+      "address": "The Arches, 56-59 Bard Road, London",
+      "postcode": "W10 6TP",
+      "lat": 51.5119175,
+      "lng": -0.2195437,
+      "rehearsal": {
+        "Rehearsal Lite": [
+          "Studio 12",
+          "Studio 13"
+        ],
+        "Rehearsal Standard": [
+          "Studio 4",
+          "Studio 7"
+        ],
+        "Rehearsal Pro": [
+          "Studio 1",
+          "Studio 6",
+          "Studio 10"
+        ]
+      },
+      "notes": null,
+      "rehearsal_types": [
+        "Rehearsal Lite",
+        "Rehearsal Standard",
+        "Rehearsal Pro"
+      ],
+      "rehearsal_room_count": 7,
+      "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
+    },
+    {
+      "deck_slug": "london-tottenham",
+      "site_id": 35,
+      "name": "London, Tottenham",
+      "area": "Tottenham",
+      "address": "2 Norman Road, London",
+      "postcode": "N15 4ND",
+      "lat": null,
+      "lng": null,
+      "rehearsal": {
+        "Rehearsal Lite": [
+          "Studio 30",
+          "Studio 41"
+        ],
+        "Rehearsal Standard": [
+          "Studio 31",
+          "Studio 32",
+          "Studio 42"
+        ],
+        "Rehearsal Pro": [
+          "Studio 25",
+          "Studio 26",
+          "Studio 27",
+          "Studio 28",
+          "Studio 29"
+        ]
+      },
+      "notes": "Not in api.pirate.com/sites, but linked from pirate.com and returns its own studios from /v1/search. Address from pirate.com London page. Site notice: lift out of service, stairs only.",
+      "rehearsal_types": [
+        "Rehearsal Lite",
+        "Rehearsal Standard",
+        "Rehearsal Pro"
+      ],
+      "rehearsal_room_count": 10,
+      "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
+    },
+    {
+      "deck_slug": "london-wembley-abbeydale-road",
+      "site_id": 24,
+      "name": "London, Wembley, Abbeydale Road",
+      "area": "Wembley",
+      "address": "278 Abbeydale Road, Wembley",
+      "postcode": "HA0 1TW",
+      "lat": 51.5397941,
+      "lng": -0.2863162,
+      "rehearsal": {
+        "Rehearsal Lite": [
+          "Studio 9"
+        ],
+        "Rehearsal Standard": [
+          "Studio 7",
+          "Studio 8"
+        ],
+        "Rehearsal Pro": [
+          "Studio 10",
+          "Studio 11"
+        ]
+      },
+      "notes": null,
+      "rehearsal_types": [
+        "Rehearsal Lite",
+        "Rehearsal Standard",
+        "Rehearsal Pro"
+      ],
+      "rehearsal_room_count": 5,
+      "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
+    },
+    {
+      "deck_slug": "london-brixton",
+      "site_id": 38,
+      "name": "London, Brixton",
+      "area": "Brixton",
+      "address": "404-406 Coldharbour Lane, London",
+      "postcode": "SW9 8LF",
+      "lat": null,
+      "lng": null,
+      "rehearsal": {
+        "Rehearsal Standard": [
+          "Studio 2"
+        ],
+        "Rehearsal Pro": [
+          "Studio 1"
+        ]
+      },
+      "notes": "pirate.com says 'coming soon' with a waitlist. API already lists 6 studios, but bookings may not be open yet.",
+      "rehearsal_types": [
+        "Rehearsal Standard",
+        "Rehearsal Pro"
+      ],
+      "rehearsal_room_count": 2,
+      "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
+    }
+  ]
+}
