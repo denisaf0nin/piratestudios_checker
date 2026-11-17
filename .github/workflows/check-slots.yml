@@ -1,0 +1,46 @@
+name: Check Pirate slots
+
+# Manual only: one run = one API request. No schedule.
+on:
+  workflow_dispatch:
+    inputs:
+      site:
+        description: "Site slug"
+        required: true
+        default: "london-wembley-abbeydale-road"
+      date:
+        description: "Date (YYYY-MM-DD)"
+        required: true
+      hour:
+        description: "Start hour, 0-23 (local time)"
+        required: true
+        default: "18"
+      duration:
+        description: "Session length in hours"
+        required: true
+        default: "2"
+      type:
+        description: 'Studio type filter ("" = all)'
+        required: false
+        default: "Rehearsal"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run pirate_slots.py
+        env:
+          SITE: ${{ inputs.site }}
+          DATE: ${{ inputs.date }}
+          HOUR: ${{ inputs.hour }}
+          DURATION: ${{ inputs.duration }}
+          TYPE: ${{ inputs.type }}
+        run: python3 pirate_slots.py "$SITE" "$DATE" "$HOUR" "$DURATION" --type "$TYPE"
