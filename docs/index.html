@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Studio Finder</title>
+<meta name="theme-color" content="#111111">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Studio Finder">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1>Studio Finder</h1>
+  <p id="dataLine" class="muted small"></p>
+</header>
+
+<main>
+  <!-- SEARCH -->
+  <section id="tab-search" class="tab active">
+    <div class="group">
+      <div class="group-head">
+        <h2>Studios</h2>
+        <button type="button" class="link" data-all="site">All</button>
+        <button type="button" class="link" data-none="site">None</button>
+      </div>
+      <div id="sites" class="chips"></div>
+    </div>
+
+    <div class="group">
+      <div class="group-head"><h2>Room types</h2></div>
+      <div id="types" class="chips"></div>
+    </div>
+
+    <div class="group">
+      <h2>Dates</h2>
+      <div class="row">
+        <label>From<input type="date" id="dateFrom"></label>
+        <label>To<input type="date" id="dateTo"></label>
+      </div>
+      <p class="muted small">Up to 14 days. Changing dates fetches new data (takes a few minutes).</p>
+    </div>
+
+    <div class="group">
+      <h2>Time of day</h2>
+      <div class="row">
+        <label>From<select id="timeFrom"></select></label>
+        <label>To<select id="timeTo"></select></label>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Minimum hours in a row</h2>
+      <div id="minHours" class="seg"></div>
+    </div>
+
+    <button id="searchBtn" class="primary">Search</button>
+    <div id="status" class="status" hidden></div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="tab-results" class="tab">
+    <p id="resultsSummary" class="muted"></p>
+    <div id="results"></div>
+  </section>
+
+  <!-- SETTINGS -->
+  <section id="tab-settings" class="tab">
+    <div class="group">
+      <h2>GitHub key</h2>
+      <p class="small">The app needs this once, so it can ask GitHub to fetch new studio data. It stays on this phone only. See the README for how to make one.</p>
+      <input type="password" id="token" placeholder="github_pat_..." autocomplete="off" spellcheck="false">
+      <div class="row">
+        <button id="saveToken" class="primary small-btn">Save</button>
+        <button id="clearToken" class="small-btn">Remove</button>
+      </div>
+      <p id="tokenState" class="small muted"></p>
+    </div>
+    <div class="group">
+      <h2>Data</h2>
+      <p id="dataInfo" class="small"></p>
+      <button id="refreshBtn" class="small-btn">Fetch fresh data for my dates</button>
+    </div>
+  </section>
+</main>
+
+<nav class="tabs">
+  <button data-tab="search" class="active">Search</button>
+  <button data-tab="results">Results <span id="count" class="badge" hidden></span></button>
+  <button data-tab="settings">Settings</button>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>
