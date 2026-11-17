@@ -42,7 +42,9 @@ This key can only start and read the fetch job in this one repo.
 ### 2. Put the app on Cloudflare
 
 1. Cloudflare dashboard → **Workers & Pages → Create → Import a repository** →
-   pick `piratestudios_checker`.
+   pick `piratestudios_checker`. If Cloudflare later says the project is
+   *disconnected from your Git account*, open Settings → Builds → **Manage** and
+   make sure `piratestudios_checker` is ticked in the Cloudflare GitHub app.
 2. **Build command:** leave empty. **Deploy command:** `npx wrangler deploy`.
    (The settings live in `wrangler.jsonc` in the repo.) Press **Deploy**.
 3. Open the new Worker → **Settings → Variables and Secrets → Add**:
@@ -50,6 +52,8 @@ This key can only start and read the fetch job in this one repo.
    - **Variable name:** `GITHUB_TOKEN`
    - **Value:** the key from step 1
    Press **Deploy** (or **Save**).
+   This box only appears once the helper has been deployed; before that
+   Cloudflare says variables can't be added to a static-assets-only Worker.
 4. The Worker's address (ending in `.workers.dev`) is the app. Share it with
    anyone. On a phone: Safari → Share → *Add to Home Screen*, or Chrome → ⋮ →
    *Install app*.
