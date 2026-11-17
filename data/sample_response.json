@@ -1,0 +1,7205 @@
+[
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "DJ Standard",
+   "en": "DJ Standard",
+   "es": "DJ Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 816,
+   "name": "Studio 8",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/d3cbcdd5a02ba63aeab9bafc24a9acc0_medium.jpg",
+   "capacity": 5,
+   "capture_status": true,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "15% OFF 3 HRS / 25% OFF 4+ HRS",
+    "banner_id": 3,
+    "join_record_id": 369
+   }
+  },
+  "studio_type": {
+   "id": 6,
+   "name": "DJ Standard",
+   "position": 0,
+   "description": {
+    "de": "<li>Geeignet für Anfänger*innen und Solo-Sessions</li><li>Beinhaltet Pioneer-Set-up mit zwei Decks</li><li>Bitte bring deine eigenen Kopfhörer mit</li>",
+    "en": "<span style=\"font-size: 1rem; font-family: Arial, -apple-system, BlinkMacSystemFont, sans-serif;\">Space for beginners and solo mixing sessions, with a 2-Deck Pioneer setup.</span><ul>\n</ul>",
+    "es": "<li>Un espacio para principiantes y sesiones de mezcla individuales.</li><li>Cuenta con un equipo Pioneer de dos platos.</li><li>Por favor, recuerda traer tus auriculares.</li>"
+   },
+   "studio_supertype": {
+    "id": 2,
+    "name": "DJ"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
+    "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
+    "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
+   },
+   "best_for": {
+    "en": "Beginners and solo mixing sessions"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "DJ Pro",
+   "en": "DJ Pro",
+   "es": "DJ Pro"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "30.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 793,
+   "name": "Studio 12",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/d96cce404277b8e97016aac1667ea7d3_medium.jpg",
+   "capacity": 8,
+   "capture_status": true,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "15% OFF 3 HRS / 25% OFF 4+ HRS",
+    "banner_id": 3,
+    "join_record_id": 372
+   }
+  },
+  "studio_type": {
+   "id": 7,
+   "name": "DJ Pro",
+   "position": 1,
+   "description": {
+    "de": "<li>Geeignet für Anfänger*innen und Solo-Sessions</li><li>Beinhaltet Pioneer-Set-up mit drei Decks</li><li>Bitte bring deine eigenen Kopfhörer mit</li>",
+    "en": "<span style=\"font-size: 1rem; font-family: Arial, -apple-system, BlinkMacSystemFont, sans-serif;\">Space for beginners and a solo mixing session, i</span><span style=\"font-size: 1rem; font-family: Arial, -apple-system, BlinkMacSystemFont, sans-serif;\">ncludes a 3 deck Pioneer setup.</span><ul>\n</ul>",
+    "es": "<li>Un espacio para principiantes y sesiones de mezcla individuales.</li><li>Cuenta con un tercer plato Pioneer.</li><li>Por favor, recuerda traer tus auriculares.</li>"
+   },
+   "studio_supertype": {
+    "id": 2,
+    "name": "DJ"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
+    "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
+    "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": null,
+   "best_for": null
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "30.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "30.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "DJ Standard",
+   "en": "DJ Standard",
+   "es": "DJ Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 817,
+   "name": "Studio 9",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/9b381a3d905b6ea690c3b2ff6e5a7cbf_medium.jpg",
+   "capacity": 5,
+   "capture_status": true,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "15% OFF 3 HRS / 25% OFF 4+ HRS",
+    "banner_id": 3,
+    "join_record_id": 370
+   }
+  },
+  "studio_type": {
+   "id": 6,
+   "name": "DJ Standard",
+   "position": 0,
+   "description": {
+    "de": "<li>Geeignet für Anfänger*innen und Solo-Sessions</li><li>Beinhaltet Pioneer-Set-up mit zwei Decks</li><li>Bitte bring deine eigenen Kopfhörer mit</li>",
+    "en": "<span style=\"font-size: 1rem; font-family: Arial, -apple-system, BlinkMacSystemFont, sans-serif;\">Space for beginners and solo mixing sessions, with a 2-Deck Pioneer setup.</span><ul>\n</ul>",
+    "es": "<li>Un espacio para principiantes y sesiones de mezcla individuales.</li><li>Cuenta con un equipo Pioneer de dos platos.</li><li>Por favor, recuerda traer tus auriculares.</li>"
+   },
+   "studio_supertype": {
+    "id": 2,
+    "name": "DJ"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
+    "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
+    "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
+   },
+   "best_for": {
+    "en": "Beginners and solo mixing sessions"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "DJ Standard",
+   "en": "DJ Standard",
+   "es": "DJ Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 820,
+   "name": "Studio 28",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/8ad485303fee9628f3d9fd008de4bd3e_medium.jpg",
+   "capacity": 5,
+   "capture_status": true,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "15% OFF 3 HRS / 25% OFF 4+ HRS",
+    "banner_id": 3,
+    "join_record_id": 365
+   }
+  },
+  "studio_type": {
+   "id": 6,
+   "name": "DJ Standard",
+   "position": 0,
+   "description": {
+    "de": "<li>Geeignet für Anfänger*innen und Solo-Sessions</li><li>Beinhaltet Pioneer-Set-up mit zwei Decks</li><li>Bitte bring deine eigenen Kopfhörer mit</li>",
+    "en": "<span style=\"font-size: 1rem; font-family: Arial, -apple-system, BlinkMacSystemFont, sans-serif;\">Space for beginners and solo mixing sessions, with a 2-Deck Pioneer setup.</span><ul>\n</ul>",
+    "es": "<li>Un espacio para principiantes y sesiones de mezcla individuales.</li><li>Cuenta con un equipo Pioneer de dos platos.</li><li>Por favor, recuerda traer tus auriculares.</li>"
+   },
+   "studio_supertype": {
+    "id": 2,
+    "name": "DJ"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
+    "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
+    "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
+   },
+   "best_for": {
+    "en": "Beginners and solo mixing sessions"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "DJ Standard",
+   "en": "DJ Standard",
+   "es": "DJ Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 814,
+   "name": "Studio 4",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/6b8fb21e1bf490007d8dbc8130c017cf_medium.jpg",
+   "capacity": 5,
+   "capture_status": true,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "15% OFF 3 HRS / 25% OFF 4+ HRS",
+    "banner_id": 3,
+    "join_record_id": 367
+   }
+  },
+  "studio_type": {
+   "id": 6,
+   "name": "DJ Standard",
+   "position": 0,
+   "description": {
+    "de": "<li>Geeignet für Anfänger*innen und Solo-Sessions</li><li>Beinhaltet Pioneer-Set-up mit zwei Decks</li><li>Bitte bring deine eigenen Kopfhörer mit</li>",
+    "en": "<span style=\"font-size: 1rem; font-family: Arial, -apple-system, BlinkMacSystemFont, sans-serif;\">Space for beginners and solo mixing sessions, with a 2-Deck Pioneer setup.</span><ul>\n</ul>",
+    "es": "<li>Un espacio para principiantes y sesiones de mezcla individuales.</li><li>Cuenta con un equipo Pioneer de dos platos.</li><li>Por favor, recuerda traer tus auriculares.</li>"
+   },
+   "studio_supertype": {
+    "id": 2,
+    "name": "DJ"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
+    "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
+    "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
+   },
+   "best_for": {
+    "en": "Beginners and solo mixing sessions"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "DJ Pro",
+   "en": "DJ Pro",
+   "es": "DJ Pro"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "30.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 792,
+   "name": "Studio 11",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/2535c6f6b668033747670fc50df9aa3d_medium.jpg",
+   "capacity": 8,
+   "capture_status": true,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "15% OFF 3 HRS / 25% OFF 4+ HRS",
+    "banner_id": 3,
+    "join_record_id": 371
+   }
+  },
+  "studio_type": {
+   "id": 7,
+   "name": "DJ Pro",
+   "position": 1,
+   "description": {
+    "de": "<li>Geeignet für Anfänger*innen und Solo-Sessions</li><li>Beinhaltet Pioneer-Set-up mit drei Decks</li><li>Bitte bring deine eigenen Kopfhörer mit</li>",
+    "en": "<span style=\"font-size: 1rem; font-family: Arial, -apple-system, BlinkMacSystemFont, sans-serif;\">Space for beginners and a solo mixing session, i</span><span style=\"font-size: 1rem; font-family: Arial, -apple-system, BlinkMacSystemFont, sans-serif;\">ncludes a 3 deck Pioneer setup.</span><ul>\n</ul>",
+    "es": "<li>Un espacio para principiantes y sesiones de mezcla individuales.</li><li>Cuenta con un tercer plato Pioneer.</li><li>Por favor, recuerda traer tus auriculares.</li>"
+   },
+   "studio_supertype": {
+    "id": 2,
+    "name": "DJ"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
+    "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
+    "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": null,
+   "best_for": null
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "30.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "30.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "DJ Standard",
+   "en": "DJ Standard",
+   "es": "DJ Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 818,
+   "name": "Studio 26",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/4c5f8d132e414dd5953a39f9d734942a_medium.jpg",
+   "capacity": 5,
+   "capture_status": true,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "15% OFF 3 HRS / 25% OFF 4+ HRS",
+    "banner_id": 3,
+    "join_record_id": 373
+   }
+  },
+  "studio_type": {
+   "id": 6,
+   "name": "DJ Standard",
+   "position": 0,
+   "description": {
+    "de": "<li>Geeignet für Anfänger*innen und Solo-Sessions</li><li>Beinhaltet Pioneer-Set-up mit zwei Decks</li><li>Bitte bring deine eigenen Kopfhörer mit</li>",
+    "en": "<span style=\"font-size: 1rem; font-family: Arial, -apple-system, BlinkMacSystemFont, sans-serif;\">Space for beginners and solo mixing sessions, with a 2-Deck Pioneer setup.</span><ul>\n</ul>",
+    "es": "<li>Un espacio para principiantes y sesiones de mezcla individuales.</li><li>Cuenta con un equipo Pioneer de dos platos.</li><li>Por favor, recuerda traer tus auriculares.</li>"
+   },
+   "studio_supertype": {
+    "id": 2,
+    "name": "DJ"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
+    "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
+    "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
+   },
+   "best_for": {
+    "en": "Beginners and solo mixing sessions"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "DJ Standard",
+   "en": "DJ Standard",
+   "es": "DJ Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 819,
+   "name": "Studio 27",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/81d313238b5f7b819ac00db6a5aaac63_medium.jpg",
+   "capacity": 5,
+   "capture_status": true,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "15% OFF 3 HRS / 25% OFF 4+ HRS",
+    "banner_id": 3,
+    "join_record_id": 374
+   }
+  },
+  "studio_type": {
+   "id": 6,
+   "name": "DJ Standard",
+   "position": 0,
+   "description": {
+    "de": "<li>Geeignet für Anfänger*innen und Solo-Sessions</li><li>Beinhaltet Pioneer-Set-up mit zwei Decks</li><li>Bitte bring deine eigenen Kopfhörer mit</li>",
+    "en": "<span style=\"font-size: 1rem; font-family: Arial, -apple-system, BlinkMacSystemFont, sans-serif;\">Space for beginners and solo mixing sessions, with a 2-Deck Pioneer setup.</span><ul>\n</ul>",
+    "es": "<li>Un espacio para principiantes y sesiones de mezcla individuales.</li><li>Cuenta con un equipo Pioneer de dos platos.</li><li>Por favor, recuerda traer tus auriculares.</li>"
+   },
+   "studio_supertype": {
+    "id": 2,
+    "name": "DJ"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
+    "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
+    "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
+   },
+   "best_for": {
+    "en": "Beginners and solo mixing sessions"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "DJ Standard",
+   "en": "DJ Standard",
+   "es": "DJ Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 813,
+   "name": "Studio 3",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/bca5c846f80605545c99fadfd3bebbe8_medium.jpg",
+   "capacity": 5,
+   "capture_status": false,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "15% OFF 3 HRS / 25% OFF 4+ HRS",
+    "banner_id": 3,
+    "join_record_id": 366
+   }
+  },
+  "studio_type": {
+   "id": 6,
+   "name": "DJ Standard",
+   "position": 0,
+   "description": {
+    "de": "<li>Geeignet für Anfänger*innen und Solo-Sessions</li><li>Beinhaltet Pioneer-Set-up mit zwei Decks</li><li>Bitte bring deine eigenen Kopfhörer mit</li>",
+    "en": "<span style=\"font-size: 1rem; font-family: Arial, -apple-system, BlinkMacSystemFont, sans-serif;\">Space for beginners and solo mixing sessions, with a 2-Deck Pioneer setup.</span><ul>\n</ul>",
+    "es": "<li>Un espacio para principiantes y sesiones de mezcla individuales.</li><li>Cuenta con un equipo Pioneer de dos platos.</li><li>Por favor, recuerda traer tus auriculares.</li>"
+   },
+   "studio_supertype": {
+    "id": 2,
+    "name": "DJ"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
+    "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
+    "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
+   },
+   "best_for": {
+    "en": "Beginners and solo mixing sessions"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "19.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Probe Pro",
+   "en": "Rehearsal Pro",
+   "es": "Ensayo Pro"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 802,
+   "name": "Studio 16",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/c995733f-ddf4-40c5-91e4-3aefb18f8a7e_medium.jpg",
+   "capacity": 12,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 119
+   }
+  },
+  "studio_type": {
+   "id": 3,
+   "name": "Rehearsal Pro",
+   "position": 4,
+   "description": {
+    "de": "<li>Geeignet für mittelgroße und große Gruppen</li><li>Beinhaltet die komplette Proberaum-Ausstattung</li>",
+    "en": "<div><div>Space for a large group practice.</div><div>Includes drumkit + cymbals, and bass and guitar amps.</div></div>",
+    "es": "<li>Un espacio para grupos medianos o grandes.</li><li>Cuenta con todo el equipo necesario para los ensayos.</li>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
+   },
+   "best_for": {
+    "en": "Large group practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Aufnahme Pro",
+   "en": "Recording Pro",
+   "es": "Grabación Pro"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 807,
+   "name": "Studio 30",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/5d6a35d4-2443-4ae1-a50d-437d089cdfa4_medium.jpg",
+   "capacity": 7,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "BOOK 8 HOURS FOR £72",
+    "banner_id": 3,
+    "join_record_id": 664
+   }
+  },
+  "studio_type": {
+   "id": 9,
+   "name": "Recording Pro",
+   "position": 2,
+   "description": {
+    "de": "<ul>\n  <li>Geeignet für Produzent*innen, Songwriter und Sänger*innen</li>\n  <li>Beinhaltet die Standard-Ausstattung sowie eine Gesangskabine mit Vorhang und mehr Platz für hochwertige Gesangsaufnahmen</li>\n  <li>Bitte bring deinen eigenen Laptop&nbsp;</li>\n</ul>",
+    "en": "<div><div>Space for producers, songwriters and vocalists.</div><div>Includes all Standard studio equipment, plus a curtained vocal booth.</div></div>",
+    "es": "<ul>\n  <li>Un espacio para productores, cantautores y vocalistas.</li>\n  <li>Además del mismo equipo que un estudio Standard, cuenta con una cabina de voces con cortina y espacio adicional para grabación de voz de alta calidad.</li>\n  <li>Traiga su propio ordenador portátil</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 3,
+    "name": "Recording"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
+    "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
+    "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "All Standard studio equipment, plus a curtained vocal booth"
+   },
+   "best_for": {
+    "en": "Producers, songwriters and vocalists"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Probe Standard",
+   "en": "Rehearsal Standard",
+   "es": "Ensayo Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 785,
+   "name": "Studio 20",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/9b2fdd50ee508e5378b70ef48ec62454_medium.jpg",
+   "capacity": 8,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 122
+   }
+  },
+  "studio_type": {
+   "id": 1,
+   "name": "Rehearsal Standard",
+   "position": 2,
+   "description": {
+    "de": "<ul>\n  <li>Platz für Proben in kleinen Gruppen</li>\n  <li>Beinhaltet Schlagzeug (keine Zimbeln), Mikros, ein Mischpult, Lautsprecher</li>\n  <li>Bass- und Gitarrenverstärker (Combo Amps)</li>\n</ul>",
+    "en": "<div>Space for small group practice.</div><div>Includes drumkit (NO CYMBALS), and bass and guitar amps.</div>",
+    "es": "<ul>\n  <li>Un espacio para ensayos de artistas en solitario o pequeños grupos.</li>\n  <li>Cuenta con batería, micrófonos, mesa de mezcla, un altavoz, y amplificadores de guitarra y bajo.</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<div><ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
+    "es": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "Drumkit (no cymbals), bass and guitar amps"
+   },
+   "best_for": {
+    "en": "Small group practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "PROBE LITE",
+   "en": "REHEARSAL LITE",
+   "es": "ENSAYO LITE"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "9.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 786,
+   "name": "Studio 23",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/b87086b8-1bd9-479a-a6bf-a450c7ab40d2_medium.jpg",
+   "capacity": 7,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 125
+   }
+  },
+  "studio_type": {
+   "id": 136,
+   "name": "Rehearsal Lite",
+   "position": 1,
+   "description": {
+    "de": "<li>Geeignet für eine*n Solokünstler*in oder eine kleine Gruppe</li><li>Beinhaltet Schlagzeug, Mikros, Mixer und Lautsprecher (keine Verstärker)</li>",
+    "en": "<div><div>Space for solo or duo practice.</div><div>Includes drumkit + cymbals, microphones, mixers and speakers.</div></div>",
+    "es": "<li>Un espacio para ensayos de artistas en solitario o pequeños grupos.</li><li>Cuenta con batería, micrófonos, mesa de mezcla y un altavoz (no hay amplificadores).</li>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<div><ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
+    "es": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Lite",
+   "equipment_summary": {
+    "en": "Drumkit + cymbals, PA system, no amps"
+   },
+   "best_for": {
+    "en": "Solo or duo practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "9.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "9.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Probe Standard",
+   "en": "Rehearsal Standard",
+   "es": "Ensayo Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 805,
+   "name": "Studio 24",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/c4fb01e0-993b-4926-88c9-37d08db38fbb_medium.jpg",
+   "capacity": 8,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 126
+   }
+  },
+  "studio_type": {
+   "id": 1,
+   "name": "Rehearsal Standard",
+   "position": 2,
+   "description": {
+    "de": "<ul>\n  <li>Platz für Proben in kleinen Gruppen</li>\n  <li>Beinhaltet Schlagzeug (keine Zimbeln), Mikros, ein Mischpult, Lautsprecher</li>\n  <li>Bass- und Gitarrenverstärker (Combo Amps)</li>\n</ul>",
+    "en": "<div>Space for small group practice.</div><div>Includes drumkit (NO CYMBALS), and bass and guitar amps.</div>",
+    "es": "<ul>\n  <li>Un espacio para ensayos de artistas en solitario o pequeños grupos.</li>\n  <li>Cuenta con batería, micrófonos, mesa de mezcla, un altavoz, y amplificadores de guitarra y bajo.</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<div><ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
+    "es": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "Drumkit (no cymbals), bass and guitar amps"
+   },
+   "best_for": {
+    "en": "Small group practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "DJ Lite",
+   "en": "DJ Lite",
+   "es": "DJ Lite"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 815,
+   "name": "Studio 5",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/5f7a8811-d368-4ffc-8dec-3b709bc6959f_medium.jpg",
+   "capacity": 5,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "15% OFF 3 HRS / 25% OFF 4+ HRS",
+    "banner_id": 3,
+    "join_record_id": 368
+   }
+  },
+  "studio_type": {
+   "id": 143,
+   "name": "DJ Lite",
+   "position": 0,
+   "description": {
+    "de": "<ul>\n  <li>Pioneer&nbsp;XDJ-XZ all-in-one DJ system</li><li>Immersive audio with high-quality DI, Adam speakers and subwoofer.</li><li>Premium experience at a lower price, no compromise needed.</li>\n</ul>",
+    "en": "<ul>\n  <li>Pioneer&nbsp;XDJ-XZ all-in-one DJ system</li><li>Immersive audio with high-quality DI, Adam speakers and subwoofer.</li>\n  \n  <li>Premium experience at a lower price, no compromise needed.</li>\n</ul>",
+    "es": "<ul>\n  <li>Pioneer&nbsp;XDJ-XZ all-in-one DJ system</li><li>Immersive audio with high-quality DI, Adam speakers and subwoofer.</li><li>Premium experience at a lower price, no compromise needed.</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 2,
+    "name": "DJ"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": null,
+   "tier": "Lite",
+   "equipment_summary": {
+    "en": "All-in-one Pioneer DJ system"
+   },
+   "best_for": {
+    "en": "Premium experience at a lower cost"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Green Room",
+   "en": "Green Room"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 812,
+   "name": "Studio 37",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/6c27a099-1555-4313-9ed7-fca0298956b6_medium.jpg",
+   "capacity": 10,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": null
+  },
+  "studio_type": {
+   "id": 144,
+   "name": "Rehearsal Extra",
+   "position": 6,
+   "description": {
+    "de": "<li><br></li>",
+    "en": "<ul>\n  <li>Space to hang out</li>\n</ul>",
+    "es": "<li><br></li>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": null,
+   "tier": "Extra",
+   "equipment_summary": null,
+   "best_for": null
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Aufnahme Standard",
+   "en": "Recording Standard",
+   "es": "Grabación Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "15.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 796,
+   "name": "Studio 6",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/58790a4e-d0d4-400b-b97e-e514e4bbe181_medium.jpg",
+   "capacity": 5,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "BOOK 4 HOURS FOR £40",
+    "banner_id": 3,
+    "join_record_id": 665
+   }
+  },
+  "studio_type": {
+   "id": 8,
+   "name": "Recording Standard",
+   "position": 1,
+   "description": {
+    "de": "<ul>\n  <li>Geeignet für Produzent*innen und/oder Songwriter</li>\n  <li>Beinhaltet Audio-Interface, MIDI-Keyboard, Mikro, Kopfhörer, Monitore und Extras</li>\n  <li>Bitte bring deinen eigenen Laptop</li>\n</ul>",
+    "en": "<div><div>Space for producers and/or songwriters. Includes Audio interface.</div><div>Includes MIDI keyboard, microphone, headphones, and monitors.</div></div>",
+    "es": "<ul>\n  <li>Un espacio para productores y/o cantautores.</li>\n  <li>Cuenta con interfaz de audio, teclado MIDI, micrófono, auriculares, monitores y accesorios.</li>\n  <li>Traiga su propio ordenador portátil</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 3,
+    "name": "Recording"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
+    "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
+    "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "Audio interface, midi keyboard, microphone, monitors"
+   },
+   "best_for": {
+    "en": "Producers and/or songwriters"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "15.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "15.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Aufnahme Pro",
+   "en": "Recording Pro",
+   "es": "Grabación Pro"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 806,
+   "name": "Studio 29",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/9510e419-2036-4ab7-81ed-0dc340ca9d68_medium.jpg",
+   "capacity": 7,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "BOOK 8 HOURS FOR £72",
+    "banner_id": 3,
+    "join_record_id": 663
+   }
+  },
+  "studio_type": {
+   "id": 9,
+   "name": "Recording Pro",
+   "position": 2,
+   "description": {
+    "de": "<ul>\n  <li>Geeignet für Produzent*innen, Songwriter und Sänger*innen</li>\n  <li>Beinhaltet die Standard-Ausstattung sowie eine Gesangskabine mit Vorhang und mehr Platz für hochwertige Gesangsaufnahmen</li>\n  <li>Bitte bring deinen eigenen Laptop&nbsp;</li>\n</ul>",
+    "en": "<div><div>Space for producers, songwriters and vocalists.</div><div>Includes all Standard studio equipment, plus a curtained vocal booth.</div></div>",
+    "es": "<ul>\n  <li>Un espacio para productores, cantautores y vocalistas.</li>\n  <li>Además del mismo equipo que un estudio Standard, cuenta con una cabina de voces con cortina y espacio adicional para grabación de voz de alta calidad.</li>\n  <li>Traiga su propio ordenador portátil</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 3,
+    "name": "Recording"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
+    "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
+    "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "All Standard studio equipment, plus a curtained vocal booth"
+   },
+   "best_for": {
+    "en": "Producers, songwriters and vocalists"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Probe Pro",
+   "en": "Rehearsal Pro",
+   "es": "Ensayo Pro"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 789,
+   "name": "Studio 22",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/311e8c34c22c2605d620cd5e12807979_medium.jpg",
+   "capacity": 12,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 124
+   }
+  },
+  "studio_type": {
+   "id": 3,
+   "name": "Rehearsal Pro",
+   "position": 4,
+   "description": {
+    "de": "<li>Geeignet für mittelgroße und große Gruppen</li><li>Beinhaltet die komplette Proberaum-Ausstattung</li>",
+    "en": "<div><div>Space for a large group practice.</div><div>Includes drumkit + cymbals, and bass and guitar amps.</div></div>",
+    "es": "<li>Un espacio para grupos medianos o grandes.</li><li>Cuenta con todo el equipo necesario para los ensayos.</li>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
+   },
+   "best_for": {
+    "en": "Large group practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Probe Pro",
+   "en": "Rehearsal Pro",
+   "es": "Ensayo Pro"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 803,
+   "name": "Studio 17",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/5fbb8b02-f5c3-4f5a-9033-f50553e17fa1_medium.jpg",
+   "capacity": 12,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 120
+   }
+  },
+  "studio_type": {
+   "id": 3,
+   "name": "Rehearsal Pro",
+   "position": 4,
+   "description": {
+    "de": "<li>Geeignet für mittelgroße und große Gruppen</li><li>Beinhaltet die komplette Proberaum-Ausstattung</li>",
+    "en": "<div><div>Space for a large group practice.</div><div>Includes drumkit + cymbals, and bass and guitar amps.</div></div>",
+    "es": "<li>Un espacio para grupos medianos o grandes.</li><li>Cuenta con todo el equipo necesario para los ensayos.</li>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
+   },
+   "best_for": {
+    "en": "Large group practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Podcast Standard",
+   "en": "Podcast Standard",
+   "es": "Podcast Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 809,
+   "name": "Studio 34",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/50ca52198dcf3b7dc083f9b4c1a58e51_medium.jpg",
+   "capacity": 7,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": null
+  },
+  "studio_type": {
+   "id": 18,
+   "name": "Podcast Standard",
+   "position": 0,
+   "description": {
+    "de": "<ul>\n  <li>Geeignet für Solo-Podcasts, Anrufe, Gruppendiskussionen oder Interviews</li>\n  <li>Beinhaltet einen RØDECaster Pro, Mikros und Studio-Kopfhörer</li>\n  <li>Bitte bring deinen eigenen Laptop oder microSD mit</li>\n</ul>",
+    "en": "<ul>\n  <li>Space for solos, dial-ins, group discussions or interviews</li>\n  <li>Includes a RØDECaster Pro unit, microphones and studio headphones</li>\n  <li>Please bring your own laptop or a microSD</li>\n</ul>",
+    "es": "<ul>\n  <li>Un espacio para sesiones individuales, llamadas telefónicas, grupos de debate o entrevistas.</li>\n  <li>Cuenta con un micrófono RØDECaster Pro unit, micrófonos y auriculares de estudio.</li>\n  <li>Por favor, recuerda traer tu propio portátil o una tarjeta microSD</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 4,
+    "name": "Podcast"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": null,
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "RØDECaster Pro unit, microphones and studio headphones"
+   },
+   "best_for": {
+    "en": "Solos, dial-ins, group discussions or interviews"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Aufnahme Lite",
+   "en": "Recording Lite",
+   "es": "Grabación Lite"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 795,
+   "name": "Studio 1",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/10533374-4793-41b9-a7b9-8e0b92743bb0_medium.jpg",
+   "capacity": 5,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": null
+  },
+  "studio_type": {
+   "id": 139,
+   "name": "Recording Lite",
+   "position": 0,
+   "description": {
+    "de": "<ul>\n  <li>Raum für Demoentwicklung und Songwriting</li>\n  <li>Audio-Interface, MIDI-Keyboard, Mikrofon, Kopfhörer, Monitore</li>\n  <li>Bringen Sie Ihren eigenen Laptop, Maus und Tastatur mit</li>\n</ul>",
+    "en": "<div>Space for demo creation and songwriting.</div><div>Includes Audio interface, MIDI keyboard, microphone, headphones, monitors.</div>",
+    "es": "<ul>\n  <li>Espacio para la creación de maquetas y la composición de canciones</li>\n  <li>Interfaz de audio, teclado MIDI, micrófono, auriculares y monitores</li>\n  <li>Trae tu propio portátil, ratón y teclado</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 3,
+    "name": "Recording"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
+    "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
+    "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Lite",
+   "equipment_summary": {
+    "en": "Audio interface, midi keyboard, microphone, monitors"
+   },
+   "best_for": {
+    "en": "Space for demo creation and songwriting"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Podcast Standard",
+   "en": "Podcast Standard",
+   "es": "Podcast Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 811,
+   "name": "Studio 36",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/843cdf88eeaa3133b108811cb03949f9_medium.jpg",
+   "capacity": 7,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": null
+  },
+  "studio_type": {
+   "id": 18,
+   "name": "Podcast Standard",
+   "position": 0,
+   "description": {
+    "de": "<ul>\n  <li>Geeignet für Solo-Podcasts, Anrufe, Gruppendiskussionen oder Interviews</li>\n  <li>Beinhaltet einen RØDECaster Pro, Mikros und Studio-Kopfhörer</li>\n  <li>Bitte bring deinen eigenen Laptop oder microSD mit</li>\n</ul>",
+    "en": "<ul>\n  <li>Space for solos, dial-ins, group discussions or interviews</li>\n  <li>Includes a RØDECaster Pro unit, microphones and studio headphones</li>\n  <li>Please bring your own laptop or a microSD</li>\n</ul>",
+    "es": "<ul>\n  <li>Un espacio para sesiones individuales, llamadas telefónicas, grupos de debate o entrevistas.</li>\n  <li>Cuenta con un micrófono RØDECaster Pro unit, micrófonos y auriculares de estudio.</li>\n  <li>Por favor, recuerda traer tu propio portátil o una tarjeta microSD</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 4,
+    "name": "Podcast"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": null,
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "RØDECaster Pro unit, microphones and studio headphones"
+   },
+   "best_for": {
+    "en": "Solos, dial-ins, group discussions or interviews"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Probe Pro",
+   "en": "Rehearsal Pro",
+   "es": "Ensayo Pro"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 799,
+   "name": "Studio 13",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/a23af1a3-6fdd-4665-8550-025dd42dc377_medium.jpg",
+   "capacity": 12,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 117
+   }
+  },
+  "studio_type": {
+   "id": 3,
+   "name": "Rehearsal Pro",
+   "position": 4,
+   "description": {
+    "de": "<li>Geeignet für mittelgroße und große Gruppen</li><li>Beinhaltet die komplette Proberaum-Ausstattung</li>",
+    "en": "<div><div>Space for a large group practice.</div><div>Includes drumkit + cymbals, and bass and guitar amps.</div></div>",
+    "es": "<li>Un espacio para grupos medianos o grandes.</li><li>Cuenta con todo el equipo necesario para los ensayos.</li>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
+   },
+   "best_for": {
+    "en": "Large group practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Probe Pro",
+   "en": "Rehearsal Pro",
+   "es": "Ensayo Pro"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 788,
+   "name": "Studio 21",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/8766d5168a619ec6bbf6a580f7dfdce1_medium.jpg",
+   "capacity": 12,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 123
+   }
+  },
+  "studio_type": {
+   "id": 3,
+   "name": "Rehearsal Pro",
+   "position": 4,
+   "description": {
+    "de": "<li>Geeignet für mittelgroße und große Gruppen</li><li>Beinhaltet die komplette Proberaum-Ausstattung</li>",
+    "en": "<div><div>Space for a large group practice.</div><div>Includes drumkit + cymbals, and bass and guitar amps.</div></div>",
+    "es": "<li>Un espacio para grupos medianos o grandes.</li><li>Cuenta con todo el equipo necesario para los ensayos.</li>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
+   },
+   "best_for": {
+    "en": "Large group practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "PROBE LITE",
+   "en": "REHEARSAL LITE",
+   "es": "ENSAYO LITE"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "9.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 794,
+   "name": "Studio 25",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/2f050480-55ae-4f49-a8e9-0649c9b3b58f_medium.jpg",
+   "capacity": 7,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 127
+   }
+  },
+  "studio_type": {
+   "id": 136,
+   "name": "Rehearsal Lite",
+   "position": 1,
+   "description": {
+    "de": "<li>Geeignet für eine*n Solokünstler*in oder eine kleine Gruppe</li><li>Beinhaltet Schlagzeug, Mikros, Mixer und Lautsprecher (keine Verstärker)</li>",
+    "en": "<div><div>Space for solo or duo practice.</div><div>Includes drumkit + cymbals, microphones, mixers and speakers.</div></div>",
+    "es": "<li>Un espacio para ensayos de artistas en solitario o pequeños grupos.</li><li>Cuenta con batería, micrófonos, mesa de mezcla y un altavoz (no hay amplificadores).</li>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<div><ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
+    "es": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Lite",
+   "equipment_summary": {
+    "en": "Drumkit + cymbals, PA system, no amps"
+   },
+   "best_for": {
+    "en": "Solo or duo practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "9.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "9.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Podcast Standard",
+   "en": "Podcast Standard",
+   "es": "Podcast Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 810,
+   "name": "Studio 35",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/06fadd119cf0e9f06c2667c887e298e8_medium.jpg",
+   "capacity": 7,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": null
+  },
+  "studio_type": {
+   "id": 18,
+   "name": "Podcast Standard",
+   "position": 0,
+   "description": {
+    "de": "<ul>\n  <li>Geeignet für Solo-Podcasts, Anrufe, Gruppendiskussionen oder Interviews</li>\n  <li>Beinhaltet einen RØDECaster Pro, Mikros und Studio-Kopfhörer</li>\n  <li>Bitte bring deinen eigenen Laptop oder microSD mit</li>\n</ul>",
+    "en": "<ul>\n  <li>Space for solos, dial-ins, group discussions or interviews</li>\n  <li>Includes a RØDECaster Pro unit, microphones and studio headphones</li>\n  <li>Please bring your own laptop or a microSD</li>\n</ul>",
+    "es": "<ul>\n  <li>Un espacio para sesiones individuales, llamadas telefónicas, grupos de debate o entrevistas.</li>\n  <li>Cuenta con un micrófono RØDECaster Pro unit, micrófonos y auriculares de estudio.</li>\n  <li>Por favor, recuerda traer tu propio portátil o una tarjeta microSD</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 4,
+    "name": "Podcast"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": null,
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "RØDECaster Pro unit, microphones and studio headphones"
+   },
+   "best_for": {
+    "en": "Solos, dial-ins, group discussions or interviews"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "en": "DJ Vinyl"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "30.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 791,
+   "name": "Studio 2",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/6230177d-0b75-4700-9984-f43c994b3a93_medium.jpg",
+   "capacity": 8,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "15% OFF 3 HRS / 25% OFF 4+ HRS",
+    "banner_id": 3,
+    "join_record_id": 609
+   }
+  },
+  "studio_type": {
+   "id": 145,
+   "name": "DJ Vinyl",
+   "position": 1,
+   "description": {
+    "de": "<span data-start=\"83\" data-end=\"114\" style=\"font-weight: bolder;\">Dialed for vinyl-only sets.<br></span><br data-start=\"114\" data-end=\"117\">Two Audio-Technica LP140XP turntables, an Allen &amp; Heath Xone 96 mixer, and Pioneer XPRS 10 speakers. Ideal for solo practice, warm-up sets, or going back-to-back.<br><br><p data-start=\"281\" data-end=\"302\" class=\"\"><span data-start=\"281\" data-end=\"300\" style=\"font-weight: bolder;\">Bring your own:</span></p><ul data-start=\"303\" data-end=\"404\"><li data-start=\"303\" data-end=\"333\" class=\"\"><p data-start=\"305\" data-end=\"333\" class=\"\">Records (33 / 45 / 78 RPM)</p></li><li data-start=\"334\" data-end=\"367\" class=\"\"><p data-start=\"336\" data-end=\"367\" class=\"\">Headphones + 1/4 inch adaptor</p></li><li data-start=\"368\" data-end=\"404\" class=\"\"><p data-start=\"370\" data-end=\"404\" class=\"\">Microphone + XLR (if you're MCing)</p></li></ul>",
+    "en": "<strong data-start=\"83\" data-end=\"114\">Dialed for vinyl-only sets.<br></strong><br data-start=\"114\" data-end=\"117\">\nTwo Audio-Technica LP140XP turntables, an Allen &amp; Heath Xone 96 mixer, and Pioneer XPRS 10 speakers. Ideal for solo practice, warm-up sets, or going back-to-back.<br><br><p data-start=\"281\" data-end=\"302\" class=\"\"><span data-start=\"281\" data-end=\"300\" style=\"font-weight: bolder;\">Bring your own:</span></p><ul data-start=\"303\" data-end=\"404\"><li data-start=\"303\" data-end=\"333\" class=\"\"><p data-start=\"305\" data-end=\"333\" class=\"\">Records (33 / 45 / 78 RPM)</p></li><li data-start=\"334\" data-end=\"367\" class=\"\"><p data-start=\"336\" data-end=\"367\" class=\"\">Headphones + 1/4 inch adaptor</p></li><li data-start=\"368\" data-end=\"404\" class=\"\"><p data-start=\"370\" data-end=\"404\" class=\"\">Microphone + XLR (if you're MCing)</p></li></ul>",
+    "es": "<span data-start=\"83\" data-end=\"114\" style=\"font-weight: bolder;\">Dialed for vinyl-only sets.<br></span><br data-start=\"114\" data-end=\"117\">Two Audio-Technica LP140XP turntables, an Allen &amp; Heath Xone 96 mixer, and Pioneer XPRS 10 speakers. Ideal for solo practice, warm-up sets, or going back-to-back.<br><br><p data-start=\"281\" data-end=\"302\" class=\"\"><span data-start=\"281\" data-end=\"300\" style=\"font-weight: bolder;\">Bring your own:</span></p><ul data-start=\"303\" data-end=\"404\"><li data-start=\"303\" data-end=\"333\" class=\"\"><p data-start=\"305\" data-end=\"333\" class=\"\">Records (33 / 45 / 78 RPM)</p></li><li data-start=\"334\" data-end=\"367\" class=\"\"><p data-start=\"336\" data-end=\"367\" class=\"\">Headphones + 1/4 inch adaptor</p></li><li data-start=\"368\" data-end=\"404\" class=\"\"><p data-start=\"370\" data-end=\"404\" class=\"\">Microphone + XLR (if you're MCing)</p></li></ul>"
+   },
+   "studio_supertype": {
+    "id": 2,
+    "name": "DJ"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {},
+   "tier": "Vinyl",
+   "equipment_summary": {
+    "en": "Turntables and Allen & Heath mixer"
+   },
+   "best_for": {
+    "en": "Vinyl-only sets"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "30.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "30.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Probe Pro",
+   "en": "Rehearsal Pro",
+   "es": "Ensayo Pro"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 790,
+   "name": "Studio 32",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/cd929f8da3b53df91e660215cc06da54_medium.jpg",
+   "capacity": 12,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 129
+   }
+  },
+  "studio_type": {
+   "id": 3,
+   "name": "Rehearsal Pro",
+   "position": 4,
+   "description": {
+    "de": "<li>Geeignet für mittelgroße und große Gruppen</li><li>Beinhaltet die komplette Proberaum-Ausstattung</li>",
+    "en": "<div><div>Space for a large group practice.</div><div>Includes drumkit + cymbals, and bass and guitar amps.</div></div>",
+    "es": "<li>Un espacio para grupos medianos o grandes.</li><li>Cuenta con todo el equipo necesario para los ensayos.</li>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
+    "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
+   },
+   "best_for": {
+    "en": "Large group practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "12.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Aufnahme Standard",
+   "en": "Recording Standard",
+   "es": "Grabación Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "15.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 797,
+   "name": "Studio 7",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/95493bff-0b2e-4dcf-a0c9-d8e233d59766_medium.jpg",
+   "capacity": 5,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "BOOK 4 HOURS FOR £40",
+    "banner_id": 3,
+    "join_record_id": 666
+   }
+  },
+  "studio_type": {
+   "id": 8,
+   "name": "Recording Standard",
+   "position": 1,
+   "description": {
+    "de": "<ul>\n  <li>Geeignet für Produzent*innen und/oder Songwriter</li>\n  <li>Beinhaltet Audio-Interface, MIDI-Keyboard, Mikro, Kopfhörer, Monitore und Extras</li>\n  <li>Bitte bring deinen eigenen Laptop</li>\n</ul>",
+    "en": "<div><div>Space for producers and/or songwriters. Includes Audio interface.</div><div>Includes MIDI keyboard, microphone, headphones, and monitors.</div></div>",
+    "es": "<ul>\n  <li>Un espacio para productores y/o cantautores.</li>\n  <li>Cuenta con interfaz de audio, teclado MIDI, micrófono, auriculares, monitores y accesorios.</li>\n  <li>Traiga su propio ordenador portátil</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 3,
+    "name": "Recording"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
+    "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
+    "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "Audio interface, midi keyboard, microphone, monitors"
+   },
+   "best_for": {
+    "en": "Producers and/or songwriters"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "15.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "15.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "PROBE LITE",
+   "en": "REHEARSAL LITE",
+   "es": "ENSAYO LITE"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "9.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 787,
+   "name": "Studio 31",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/f90a8c3f-7083-4a4f-8785-6501817c4deb_medium.jpg",
+   "capacity": 7,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 128
+   }
+  },
+  "studio_type": {
+   "id": 136,
+   "name": "Rehearsal Lite",
+   "position": 1,
+   "description": {
+    "de": "<li>Geeignet für eine*n Solokünstler*in oder eine kleine Gruppe</li><li>Beinhaltet Schlagzeug, Mikros, Mixer und Lautsprecher (keine Verstärker)</li>",
+    "en": "<div><div>Space for solo or duo practice.</div><div>Includes drumkit + cymbals, microphones, mixers and speakers.</div></div>",
+    "es": "<li>Un espacio para ensayos de artistas en solitario o pequeños grupos.</li><li>Cuenta con batería, micrófonos, mesa de mezcla y un altavoz (no hay amplificadores).</li>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<div><ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
+    "es": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Lite",
+   "equipment_summary": {
+    "en": "Drumkit + cymbals, PA system, no amps"
+   },
+   "best_for": {
+    "en": "Solo or duo practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "9.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "9.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Probe Standard",
+   "en": "Rehearsal Standard",
+   "es": "Ensayo Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 784,
+   "name": "Studio 19",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/8f403813d720a8ca8e07a0b0d0eaef0f_medium.jpg",
+   "capacity": 8,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "20% OFF 4+ HOURS",
+    "banner_id": 3,
+    "join_record_id": 121
+   }
+  },
+  "studio_type": {
+   "id": 1,
+   "name": "Rehearsal Standard",
+   "position": 2,
+   "description": {
+    "de": "<ul>\n  <li>Platz für Proben in kleinen Gruppen</li>\n  <li>Beinhaltet Schlagzeug (keine Zimbeln), Mikros, ein Mischpult, Lautsprecher</li>\n  <li>Bass- und Gitarrenverstärker (Combo Amps)</li>\n</ul>",
+    "en": "<div>Space for small group practice.</div><div>Includes drumkit (NO CYMBALS), and bass and guitar amps.</div>",
+    "es": "<ul>\n  <li>Un espacio para ensayos de artistas en solitario o pequeños grupos.</li>\n  <li>Cuenta con batería, micrófonos, mesa de mezcla, un altavoz, y amplificadores de guitarra y bajo.</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 1,
+    "name": "Rehearsal"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>",
+    "en": "<div><ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
+    "es": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "Drumkit (no cymbals), bass and guitar amps"
+   },
+   "best_for": {
+    "en": "Small group practice"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "10.00"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Podcast Standard",
+   "en": "Podcast Standard",
+   "es": "Podcast Standard"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 808,
+   "name": "Studio 33",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/30537ca9b3dc326f0a6c705965fbdef3_medium.jpg",
+   "capacity": 7,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": null
+  },
+  "studio_type": {
+   "id": 18,
+   "name": "Podcast Standard",
+   "position": 0,
+   "description": {
+    "de": "<ul>\n  <li>Geeignet für Solo-Podcasts, Anrufe, Gruppendiskussionen oder Interviews</li>\n  <li>Beinhaltet einen RØDECaster Pro, Mikros und Studio-Kopfhörer</li>\n  <li>Bitte bring deinen eigenen Laptop oder microSD mit</li>\n</ul>",
+    "en": "<ul>\n  <li>Space for solos, dial-ins, group discussions or interviews</li>\n  <li>Includes a RØDECaster Pro unit, microphones and studio headphones</li>\n  <li>Please bring your own laptop or a microSD</li>\n</ul>",
+    "es": "<ul>\n  <li>Un espacio para sesiones individuales, llamadas telefónicas, grupos de debate o entrevistas.</li>\n  <li>Cuenta con un micrófono RØDECaster Pro unit, micrófonos y auriculares de estudio.</li>\n  <li>Por favor, recuerda traer tu propio portátil o una tarjeta microSD</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 4,
+    "name": "Podcast"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": null,
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "RØDECaster Pro unit, microphones and studio headphones"
+   },
+   "best_for": {
+    "en": "Solos, dial-ins, group discussions or interviews"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "23.50"
+  }
+ },
+ {
+  "priority": 100,
+  "start_time": "2026-11-18T03:00:00+00:00",
+  "duration": 1,
+  "display_name": {
+   "de": "Aufnahme Pro",
+   "en": "Recording Pro",
+   "es": "Grabación Pro"
+  },
+  "price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  },
+  "site": {
+   "id": 36,
+   "name": "London, Camden",
+   "currency": "GBP",
+   "iso_country": "GB",
+   "deck_slug": "london-camden",
+   "has_capture": true
+  },
+  "slots": [
+   {
+    "time": "2026-11-18T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T03:00:00+00:00",
+    "selected": true,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T04:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T05:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T06:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T07:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T08:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-18T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T19:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T20:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-18T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T00:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-19T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   }
+  ],
+  "studio": {
+   "id": 798,
+   "name": "Studio 10",
+   "default_image_url": "https://kraken-files-prod.s3.eu-west-1.amazonaws.com/studio_images/49a5a438-19f9-40ac-9cba-b560abd484cd_medium.jpg",
+   "capacity": 7,
+   "capture_status": null,
+   "pricing_summary": null,
+   "recommended_occupancy": null,
+   "maintenance_reason": null,
+   "promo_reason": {
+    "reason": "Promo",
+    "description": "BOOK 8 HOURS FOR £72",
+    "banner_id": 3,
+    "join_record_id": 662
+   }
+  },
+  "studio_type": {
+   "id": 9,
+   "name": "Recording Pro",
+   "position": 2,
+   "description": {
+    "de": "<ul>\n  <li>Geeignet für Produzent*innen, Songwriter und Sänger*innen</li>\n  <li>Beinhaltet die Standard-Ausstattung sowie eine Gesangskabine mit Vorhang und mehr Platz für hochwertige Gesangsaufnahmen</li>\n  <li>Bitte bring deinen eigenen Laptop&nbsp;</li>\n</ul>",
+    "en": "<div><div>Space for producers, songwriters and vocalists.</div><div>Includes all Standard studio equipment, plus a curtained vocal booth.</div></div>",
+    "es": "<ul>\n  <li>Un espacio para productores, cantautores y vocalistas.</li>\n  <li>Además del mismo equipo que un estudio Standard, cuenta con una cabina de voces con cortina y espacio adicional para grabación de voz de alta calidad.</li>\n  <li>Traiga su propio ordenador portátil</li>\n</ul>"
+   },
+   "studio_supertype": {
+    "id": 3,
+    "name": "Recording"
+   },
+   "required_verification_level": 2,
+   "excluded_equipment": {
+    "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
+    "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
+    "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "All Standard studio equipment, plus a curtained vocal booth"
+   },
+   "best_for": {
+    "en": "Producers, songwriters and vocalists"
+   }
+  },
+  "first_hour_price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  },
+  "booking_status": {
+   "reason": "studio_unavailable",
+   "status": false
+  },
+  "booking_only_price": {
+   "currency": "GBP",
+   "amount": "18.00"
+  }
+ }
+]
