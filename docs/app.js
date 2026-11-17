@@ -165,7 +165,7 @@
       .then(function (txt) { return JSON.parse(txt); });
     return viaApi.catch(function () {
       return fetch("data/schedule.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("no data"); return r.json(); });
-    }).then(function (d) { data = d; store("schedule", JSON.stringify(d)); showDataInfo(); return d; });
+    }).then(function (d) { if (!d || !d.rooms || !d.rooms.length) throw new Error("empty data"); data = d; store("schedule", JSON.stringify(d)); showDataInfo(); return d; });
   }
   function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
 
