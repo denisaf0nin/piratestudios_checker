@@ -294,7 +294,7 @@
         out.push("</div>");
       });
     });
-    $("results").innerHTML = out.length ? out.join("") : '<div class="empty">Nothing free that matches.<br>Try more studios, a wider time window or fewer hours in a row.</div>';
+    $("results").innerHTML = out.length ? out.join("") : '<div class="empty">' + (document.querySelector(".brand .logo") || {}).outerHTML + 'Nothing free that matches.<br>Try more studios, a wider time window or fewer hours in a row.</div>';
     $("resultsSummary").textContent = total + " free time block" + (total === 1 ? "" : "s") + ", " + shortDate(f.dateFrom) + " to " + shortDate(f.dateTo) + ", " + hh(f.timeFrom) + "–" + hh(f.timeTo) + ", at least " + f.minHours + "h in a row. Tap a time to book it on Pirate (starts with " + f.minHours + "h; you can change it there).";
     $("count").hidden = false; $("count").textContent = total;
   }

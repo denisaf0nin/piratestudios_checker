@@ -8,13 +8,20 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Studio Finder">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icons/icon-192.png">
+<link rel="icon" href="icons/logo.svg" type="image/svg+xml">
+<link rel="alternate icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top">
-  <h1>Studio Finder</h1>
+  <div class="brand">
+    <svg class="logo" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 104" fill="none">
+      <ellipse cx="80" cy="52" rx="73" ry="46" stroke="currentColor" stroke-width="9"/>
+      <path fill="currentColor" fill-rule="evenodd" d="M62 22H86A18 18 0 0 1 86 58H73V82H62ZM73 31V49H85A9 9 0 0 0 85 31Z"/>
+    </svg>
+    <h1>Studio Finder</h1>
+  </div>
   <p id="dataLine" class="muted small"></p>
 </header>
 
