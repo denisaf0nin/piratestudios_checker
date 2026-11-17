@@ -22,43 +22,47 @@ booking page on Pirate.
 The booking link opens at the start of the free block, for the number of
 hours you asked for. You can change the length on Pirate's page.
 
-## One-time setup
+## One-time setup (Cloudflare, recommended)
 
-You only do this once.
+With this setup anyone you share the link with can use the app. Nobody needs a
+key or a passcode: the GitHub key lives hidden inside Cloudflare.
 
-### 1. Turn on the website (GitHub Pages)
+### 1. Make a GitHub key
 
-1. Open the repo on GitHub, then **Settings → Pages**.
-2. Under *Build and deployment*, set **Source** to *Deploy from a branch*.
-3. Set **Branch** to `main` and the folder to `/docs`, then **Save**.
-4. After a minute or two the page shows your app address, which will be
-   **https://denisaf0nin.github.io/piratestudios_checker/**
-
-### 2. Make a key so the app can start the fetch
-
-1. Go to **https://github.com/settings/personal-access-tokens/new**
-   (GitHub → your photo → Settings → Developer settings → Personal access
-   tokens → *Fine-grained tokens* → *Generate new token*).
-2. **Token name:** `Studio Finder`. **Expiration:** pick what you like
-   (for example 1 year). You will need a new key when it expires.
+1. Go to **https://github.com/settings/personal-access-tokens/new**.
+2. **Token name:** `Studio Finder`. **Expiration:** for example 1 year (make a
+   new one the same way when it runs out).
 3. **Repository access:** *Only select repositories* → `piratestudios_checker`.
-4. **Permissions → Repository permissions:**
-   - **Actions:** *Read and write*
-   - **Contents:** *Read-only*
-   (Metadata: Read-only is added automatically.) Leave everything else as
-   *No access*.
-5. Press **Generate token** and copy it (it starts with `github_pat_`).
+4. **Permissions → Repository permissions:** **Actions** *Read and write*,
+   **Contents** *Read-only*. Leave everything else alone.
+5. Press **Generate token** and copy it (starts with `github_pat_`).
 
-This key can only start and read the fetch job and read files in this one
-repo. It cannot change code or touch your other repos.
+This key can only start and read the fetch job in this one repo.
 
-### 3. Put it on your phone
+### 2. Put the app on Cloudflare
 
-1. Open the app address on your phone.
-2. **Add it to your home screen**: on iPhone, Safari → Share → *Add to Home
-   Screen*. On Android, Chrome → ⋮ → *Install app* / *Add to Home screen*.
-3. Open the app, go to **Settings**, paste the key and press **Save**. It should
-   say *Key saved and working*. The key is stored only on that phone.
+1. Cloudflare dashboard → **Workers & Pages → Create → Import a repository** →
+   pick `piratestudios_checker`.
+2. **Build command:** leave empty. **Deploy command:** `npx wrangler deploy`.
+   (The settings live in `wrangler.jsonc` in the repo.) Press **Deploy**.
+3. Open the new Worker → **Settings → Variables and Secrets → Add**:
+   - **Type:** Secret
+   - **Variable name:** `GITHUB_TOKEN`
+   - **Value:** the key from step 1
+   Press **Deploy** (or **Save**).
+4. The Worker's address (ending in `.workers.dev`) is the app. Share it with
+   anyone. On a phone: Safari → Share → *Add to Home Screen*, or Chrome → ⋮ →
+   *Install app*.
+
+To be polite to Pirate, if someone searches dates that are already being
+fetched they wait for that fetch, and at most two fetches can be running or
+queued at once.
+
+### Without Cloudflare (GitHub Pages, only for yourself)
+
+Turn on **Settings → Pages** (branch `main`, folder `/docs`). The app then lives
+at https://denisaf0nin.github.io/piratestudios_checker/ and asks for the GitHub
+key in its own **Settings** tab instead. The key is stored only on that device.
 
 ## Notes
 
@@ -75,6 +79,7 @@ repo. It cannot change code or touch your other repos.
 ## Files
 
 - `docs/` – the app (plain HTML, CSS and JavaScript, no build step)
+- `worker/index.js`, `wrangler.jsonc` – the Cloudflare helper that serves the app and starts fetches with the hidden key
 - `docs/data/schedule.json` – the latest fetched schedule
 - `scripts/fetch_schedule.py` – pulls the schedule (Python standard library only)
 - `.github/workflows/fetch-schedule.yml` – the job the app starts
