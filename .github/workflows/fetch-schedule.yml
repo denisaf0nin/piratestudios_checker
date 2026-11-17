@@ -1,0 +1,52 @@
+name: Fetch schedule
+
+# Started by the app (or by hand from the Actions tab). No schedule.
+# Pulls every London site, every rehearsal room, for the chosen days,
+# then saves docs/data/schedule.json for the app to read.
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "First day (YYYY-MM-DD)"
+        required: true
+      end:
+        description: "Last day (YYYY-MM-DD), at most 14 days after the first"
+        required: true
+      request_id:
+        description: "Set by the app so it can find this run"
+        required: false
+        default: ""
+
+run-name: "Fetch ${{ inputs.start }} to ${{ inputs.end }} ${{ inputs.request_id }}"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-schedule
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull schedule from Pirate
+        env:
+          START: ${{ inputs.start }}
+          END: ${{ inputs.end }}
+        run: python3 scripts/fetch_schedule.py --start "$START" --end "$END"
+      - name: Save to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/schedule.json data/sample_response.json
+          git commit -m "Update schedule ${START} to ${END}" || echo "No changes"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+        env:
+          START: ${{ inputs.start }}
+          END: ${{ inputs.end }}
