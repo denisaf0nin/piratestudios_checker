@@ -58,17 +58,45 @@ button.primary.small-btn { width: auto; font-size: 15px; margin: 10px 0 0; }
   border-radius: 50%; animation: spin 1s linear infinite; margin-right: 8px; vertical-align: -1px; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-.day { margin: 18px 0 8px; font-size: 17px; position: sticky; top: 0; background: var(--bg); padding: 8px 0; z-index: 1; }
-.site-card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; }
-.site-card h3 { margin: 0 0 8px; font-size: 16px; }
-.room { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; padding: 8px 0; border-top: 1px solid var(--line); }
+/* results: day tabs */
+.daytabs { display: flex; gap: 2px; overflow-x: auto; margin: 4px -16px 0; padding: 0 16px; border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; background: var(--bg); z-index: 2; scrollbar-width: none; }
+.daytabs::-webkit-scrollbar { display: none; }
+.daytab { flex: none; display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 62px; padding: 8px 10px 6px;
+  border: 1px solid transparent; border-bottom: 0; border-radius: 10px 10px 0 0; background: none; color: var(--muted);
+  font: inherit; font-size: 14px; cursor: pointer; margin-bottom: -1px; }
+.daytab b { font-weight: 600; white-space: nowrap; }
+.daytab span { font-size: 11px; min-width: 18px; padding: 0 5px; border-radius: 999px; background: var(--line); color: var(--ink); }
+.daytab.none span { opacity: .5; }
+.daytab.on { background: var(--card); color: var(--ink); border-color: var(--line); }
+.daytab.on span { background: var(--ink); color: var(--bg); }
+#resultsSummary { margin: 10px 0 4px; }
+.day-title { margin: 6px 0 10px; font-weight: 600; font-size: 17px; }
+.legend { white-space: nowrap; }
+.legend .cell { display: inline-block; width: 14px; height: 14px; vertical-align: -2px; margin: 0 2px 0 6px; }
+
+/* results: studio cards and room rows */
+.site-card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px 6px; margin-bottom: 12px; }
+.site-card h3 { margin: 0 0 4px; font-size: 17px; display: flex; justify-content: space-between; align-items: baseline; }
+.room { padding: 10px 0; border-top: 1px solid var(--line); }
 .room:first-of-type { border-top: 0; }
-.room-name { width: 100%; font-size: 14px; }
-.room-name .type { display: inline-block; font-size: 11px; text-transform: uppercase; letter-spacing: .04em;
-  border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; margin-left: 4px; color: var(--muted); }
-.slot { display: inline-block; text-decoration: none; background: var(--free); color: var(--free-ink);
-  border: 1px solid var(--free-line); border-radius: 8px; padding: 7px 10px; font-size: 14px; font-weight: 600; }
-.slot span { font-weight: 400; opacity: .8; margin-left: 4px; }
+.room-name { display: flex; align-items: center; gap: 6px; font-size: 15px; color: var(--ink); text-decoration: none; margin-bottom: 6px; }
+.room-name .type { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; color: var(--muted); }
+.room-name .go { margin-left: auto; font-size: 13px; font-weight: 600; color: var(--free-ink); white-space: nowrap; }
+
+/* hour grid, like Pirate's: crossed = booked, empty = free */
+.grid { display: grid; grid-template-columns: repeat(var(--n), minmax(26px, 1fr)); gap: 3px; overflow-x: auto; padding-bottom: 2px; }
+.cell { position: relative; display: flex; flex-direction: column; align-items: center; gap: 2px; text-decoration: none; color: var(--muted); }
+.cell > i { display: block; width: 100%; aspect-ratio: 1; max-height: 30px; border: 1.5px solid var(--ink); border-radius: 3px; background: var(--card); }
+.cell .t { font-size: 10px; line-height: 1; font-variant-numeric: tabular-nums; }
+.cell.free > i { border-color: var(--ink); }
+.cell.free.fits > i { background: var(--free); border-color: var(--free-ink); }
+.cell.free.fits .t { color: var(--free-ink); font-weight: 600; }
+.cell.booked > i, .cell.past > i, .cell.unknown > i { border-color: var(--line);
+  background: linear-gradient(to top right, transparent calc(50% - .75px), var(--muted) 50%, transparent calc(50% + .75px)),
+              linear-gradient(to top left, transparent calc(50% - .75px), var(--muted) 50%, transparent calc(50% + .75px)), var(--card); }
+.cell.past { opacity: .4; }
+.legend .cell > i { width: 14px; height: 14px; }
 .empty { text-align: center; padding: 40px 10px; color: var(--muted); }
 
 nav.tabs { position: fixed; left: 0; right: 0; bottom: 0; display: flex; background: var(--card);

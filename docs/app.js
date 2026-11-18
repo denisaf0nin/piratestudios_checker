@@ -9,14 +9,9 @@
   "use strict";
 
   // ---- settings ----------------------------------------------------------
-  var OWNER = "denisaf0nin";
-  var REPO = "piratestudios_checker";
-  var BRANCH = "main";
-  var WORKFLOW = "fetch-schedule.yml";
-  var DATA_PATH = "docs/data/schedule.json";
   var MAX_DAYS = 14;
-  var POLL_MS = 10000;
-  var API = "https://api.github.com/repos/" + OWNER + "/" + REPO;
+  var POLL_MS = 8000;
+  var SECS_PER_REQUEST = 2.6;   // measured on GitHub, including the 1.5 s pause
 
   var SITES = [
     ["london-camden", "Camden"], ["london-brixton", "Brixton"],
@@ -25,6 +20,13 @@
     ["london-hackney", "Hackney"], ["london-notting-hill-the-arches", "Notting Hill"],
     ["london-tottenham", "Tottenham"], ["london-wembley-abbeydale-road", "Wembley"]
   ].sort(function (a, b) { return a[1].localeCompare(b[1]); });
+  // Same order as data/london_sites.json, which is the order the fetch script uses.
+  var FETCH_ORDER = [
+    ["london-camden", "Camden"], ["croydon-purley-way", "Croydon"], ["london-dalston", "Dalston"],
+    ["london-lydden-road-earlsfield", "Earlsfield"], ["london-greenwich-bugsby-s-way", "Greenwich"],
+    ["london-hackney", "Hackney"], ["london-notting-hill-the-arches", "Notting Hill"],
+    ["london-tottenham", "Tottenham"], ["london-wembley-abbeydale-road", "Wembley"], ["london-brixton", "Brixton"]
+  ];
   var TYPES = [["Lite", ""], ["Standard", ""], ["Pro", ""], ["Extra", "Camden"], ["Acoustic", "Dalston"]];
 
   // ---- small helpers -----------------------------------------------------
@@ -51,7 +53,6 @@
 
   // ---- state ---------------------------------------------------------------
   var data = null;        // loaded schedule.json
-  var server = false;     // true when the Cloudflare helper is there; then no GitHub key is needed
   var busy = false;
   var saved = {};
   try { saved = JSON.parse(store("filters") || "{}"); } catch (e) { saved = {}; }
@@ -138,164 +139,177 @@
     s.hidden = !html; s.innerHTML = html || ""; s.classList.toggle("error", !!isError);
   }
   function showDataInfo() {
-    var line = $("dataLine"), info = $("dataInfo");
-    if (!data) { line.textContent = "No studio data loaded yet."; info.textContent = "No data yet. Pick dates and press Search."; return; }
-    var t = "Data for " + shortDate(data.start) + " to " + shortDate(data.end) + ", fetched " + ago(data.generated_at) + ".";
-    line.textContent = t;
-    info.textContent = t + " " + data.rooms.length + " rooms." + (data.errors && data.errors.length ? " " + data.errors.length + " requests failed, so some rooms may be missing." : "");
+    var line = $("dataLine");
+    if (!data) { line.textContent = "No studio data loaded yet."; return; }
+    line.textContent = "Data for " + shortDate(data.start) + " to " + shortDate(data.end) + ", fetched " + ago(data.generated_at) + "." +
+      (data.errors && data.errors.length ? " " + data.errors.length + " requests failed, so some rooms may be missing." : "");
   }
 
-  // ---- GitHub ------------------------------------------------------------------
-  function token() { return store("gh_token") || ""; }
-  function gh(path, opts) {
-    opts = opts || {};
-    var headers = { "Accept": opts.accept || "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" };
-    if (token()) headers.Authorization = "Bearer " + token();
-    if (opts.body) headers["Content-Type"] = "application/json";
-    return fetch(API + path, { method: opts.method || "GET", headers: headers, body: opts.body ? JSON.stringify(opts.body) : undefined, cache: "no-store" })
-      .then(function (r) {
-        if (r.status === 401) throw new Error("GitHub did not accept the key. Check it in Settings.");
-        if (r.status === 403 || r.status === 404) throw new Error("GitHub refused (" + r.status + "). The key may be missing the Actions permission, or the setup is not finished. See the README.");
-        if (!r.ok) throw new Error("GitHub error " + r.status);
-        return r.status === 204 ? null : (opts.accept && opts.accept.indexOf("raw") >= 0 ? r.text() : r.json());
-      });
-  }
+  // ---- data + fetching (through the Cloudflare helper) -----------------------
   function loadData() {
-    // Prefer the helper or the GitHub API (always the newest file); fall back to this site's copy.
-    var viaApi = server
-      ? fetch("api/data?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("no data"); return r.json(); })
-      : gh("/contents/" + DATA_PATH + "?ref=" + BRANCH + "&t=" + Date.now(), { accept: "application/vnd.github.raw+json" })
-        .then(function (txt) { return JSON.parse(txt); });
-    return viaApi.catch(function () {
-      return fetch("data/schedule.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("no data"); return r.json(); });
-    }).then(function (d) { if (!d || !d.rooms || !d.rooms.length) throw new Error("empty data"); data = d; store("schedule", JSON.stringify(d)); showDataInfo(); return d; });
+    // Newest file via the helper; fall back to the copy deployed with the app.
+    return fetch("api/data?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error("no data"); return r.json(); })
+      .catch(function () {
+        return fetch("data/schedule.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("no data"); return r.json(); });
+      })
+      .then(function (d) { if (!d || !d.rooms || !d.rooms.length) throw new Error("empty data"); data = d; store("schedule", JSON.stringify(d)); showDataInfo(); return d; });
   }
   function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
-
   function api(path, body) {
     return fetch(path, body ? { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body), cache: "no-store" } : { cache: "no-store" })
       .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { if (!r.ok) throw new Error(j.error || ("Error " + r.status)); return j; }); });
   }
-  function runFetchViaHelper(from, to) {
-    var started = Date.now(), days = daysBetween(from, to) + 1;
-    var estimate = Math.ceil((days * SITES.length * 2.2 + 60) / 60);
-    function tick(msg) {
-      var secs = Math.round((Date.now() - started) / 1000);
-      status('<span class="spinner"></span>' + msg + " (" + Math.floor(secs / 60) + ":" + pad(secs % 60) + ", usually about " + estimate + " min). You can leave this screen open.");
-    }
-    tick("Starting the fetch for " + days + " day" + (days > 1 ? "s" : ""));
-    return api("api/fetch", { start: from, end: to }).then(function (r) {
-      var id = r.id;
-      if (r.joined) tick("Someone is already fetching these dates, waiting for it");
-      function poll() {
-        return sleep(POLL_MS).then(function () { return api("api/run?id=" + encodeURIComponent(id)); }).then(function (run) {
-          if (run.status === "starting" && Date.now() - started > 3 * 60000) throw new Error("GitHub did not start the fetch. Try again in a minute.");
-          if (run.status !== "completed") { tick(run.status === "queued" || run.status === "starting" ? "Waiting for GitHub to start" : "Fetching studio data"); return poll(); }
-          if (run.conclusion !== "success") throw new Error('The fetch failed on GitHub.' + (run.url ? ' <a href="' + esc(run.url) + '" target="_blank" rel="noopener">See what happened</a>.' : ""));
-          tick("Loading results");
-          return sleep(2000).then(loadData);
-        });
-      }
-      return poll();
-    });
+  function mmss(secs) { secs = Math.max(0, Math.round(secs)); return Math.floor(secs / 60) + ":" + pad(secs % 60); }
+  function left(secs) { return secs < 50 ? "under a minute left" : "about " + Math.max(1, Math.round(secs / 60)) + " min left"; }
+
+  // Progress is an estimate: the fetch script goes through the studios in
+  // FETCH_ORDER, one request per studio per day, about SECS_PER_REQUEST each
+  // (measured on GitHub). GitHub tells us when the pull step starts and ends.
+  function progressText(days, pullStart) {
+    var total = days * FETCH_ORDER.length;
+    var done = Math.min(total - 1, Math.floor((Date.now() - pullStart) / 1000 / SECS_PER_REQUEST));
+    var site = Math.floor(done / days), day = done % days + 1;
+    var name = FETCH_ORDER[site][1];
+    var remaining = (total - done) * SECS_PER_REQUEST + 5;
+    return "Pulling " + name + " (studio " + (site + 1) + " of " + FETCH_ORDER.length + ")" +
+      (days > 1 ? ", day " + day + " of " + days : "") + " · " + left(remaining);
   }
 
   function runFetch(from, to) {
-    if (server) return runFetchViaHelper(from, to);
-    if (!token()) {
-      status('New dates need new data, and that needs your GitHub key. Add it in <b>Settings</b> (one time only).', true);
-      return Promise.reject(new Error("no token"));
+    var started = Date.now(), days = daysBetween(from, to) + 1;
+    var total = days * FETCH_ORDER.length;
+    var id = null, run = { status: "starting" }, timer = null, finished = false;
+    function draw() {
+      var head = '<span class="spinner"></span>', msg;
+      if (run.pull_started_at) msg = progressText(days, Date.parse(run.pull_started_at));
+      else if (run.status === "queued") msg = "Waiting in GitHub's queue";
+      else msg = "Starting up (about 30 s) · then " + total + " requests, " + left(total * SECS_PER_REQUEST + 30);
+      status(head + esc(msg) + '<div class="muted small">Elapsed ' + mmss((Date.now() - started) / 1000) + ". You can leave this screen open.</div>");
     }
-    var reqId = "app-" + Date.now().toString(36);
-    var started = Date.now();
-    var days = daysBetween(from, to) + 1;
-    var estimate = Math.ceil((days * SITES.length * 2.2 + 60) / 60);
-    function tick(msg) {
-      var secs = Math.round((Date.now() - started) / 1000);
-      status('<span class="spinner"></span>' + msg + " (" + Math.floor(secs / 60) + ":" + pad(secs % 60) + ", usually about " + estimate + " min). You can leave this screen open.");
-    }
-    tick("Asking GitHub to fetch studio data for " + days + " day" + (days > 1 ? "s" : ""));
-    return gh("/actions/workflows/" + WORKFLOW + "/dispatches", { method: "POST", body: { ref: BRANCH, inputs: { start: from, end: to, request_id: reqId } } })
-      .then(function () {
-        var runId = null;
-        function poll() {
-          return sleep(POLL_MS).then(function () {
-            if (!runId) {
-              return gh("/actions/workflows/" + WORKFLOW + "/runs?event=workflow_dispatch&per_page=10").then(function (r) {
-                var run = (r.workflow_runs || []).filter(function (x) { return (x.display_title || "").indexOf(reqId) >= 0; })[0];
-                if (run) runId = run.id;
-                tick(run ? "Fetching studio data" : "Waiting for GitHub to start");
-                if (Date.now() - started > 3 * 60000 && !run) throw new Error("GitHub did not start the fetch. Try again in a minute.");
-                return poll();
-              });
-            }
-            return gh("/actions/runs/" + runId).then(function (run) {
-              if (run.status !== "completed") { tick(run.status === "queued" ? "Waiting in GitHub's queue" : "Fetching studio data"); return poll(); }
-              if (run.conclusion !== "success") throw new Error('The fetch failed on GitHub. <a href="' + esc(run.html_url) + '" target="_blank" rel="noopener">See what happened</a>.');
-              tick("Loading results");
-              return sleep(2000).then(loadData);
-            });
-          });
-        }
-        return poll();
-      });
+    draw();
+    $("status").scrollIntoView({ behavior: "smooth", block: "center" });
+    timer = setInterval(function () { if (!finished) draw(); }, 1000);
+    function stop() { finished = true; clearInterval(timer); }
+    return api("api/fetch", { start: from, end: to }).then(function (r) {
+      id = r.id;
+      function poll() {
+        return sleep(POLL_MS).then(function () { return api("api/run?id=" + encodeURIComponent(id)); }).then(function (x) {
+          run = x;
+          if (run.status === "starting" && Date.now() - started > 3 * 60000) throw new Error("GitHub did not start the fetch. Try again in a minute.");
+          if (run.status !== "completed") return poll();
+          if (run.conclusion !== "success") throw new Error('The fetch failed on GitHub.' + (run.url ? ' <a href="' + esc(run.url) + '" target="_blank" rel="noopener">See what happened</a>.' : ""));
+          stop();
+          status('<span class="spinner"></span>Done. Loading results…');
+          return sleep(1500).then(loadData);
+        });
+      }
+      return poll();
+    }).then(function (d) { stop(); return d; }, function (e) { stop(); throw e; });
   }
 
-  // ---- filtering -----------------------------------------------------------------
-  function findSlots(f) {
-    var now = londonNow();
-    var siteName = {}; SITES.forEach(function (s) { siteName[s[0]] = s[1]; });
-    var rooms = data.rooms.filter(function (r) { return f.sites.indexOf(r.site) >= 0 && f.types.indexOf(r.type) >= 0; });
-    var days = [];
-    for (var d = f.dateFrom; d <= f.dateTo; d = addDays(d, 1)) {
-      if (d < now.date) continue;
-      var bySite = {};
-      rooms.forEach(function (r) {
-        var hours = (data.free[r.key] || {})[d];
-        if (!hours) return;
-        var blocks = [], start = null;
-        for (var h = f.timeFrom; h <= f.timeTo; h++) {
-          var ok = h < f.timeTo && hours.charAt(h) === "1" && !(d === now.date && h <= now.hour);
-          if (ok && start === null) start = h;
-          if (!ok && start !== null) { if (h - start >= f.minHours) blocks.push([start, h]); start = null; }
-        }
-        if (!blocks.length) return;
-        (bySite[r.site] = bySite[r.site] || []).push({ room: r, blocks: blocks });
-      });
-      var sites = Object.keys(bySite).sort(function (a, b) { return (siteName[a] || a).localeCompare(siteName[b] || b); })
-        .map(function (s) { return { slug: s, name: siteName[s] || s, rooms: bySite[s] }; });
-      if (sites.length) days.push({ date: d, sites: sites });
-    }
-    return days;
-  }
+  // ---- results ---------------------------------------------------------------------
+  var shownDay = null;
   function typeOrder(t) { var i = ["Lite", "Standard", "Pro", "Extra", "Acoustic"].indexOf(t); return i < 0 ? 9 : i; }
   function bookingUrl(room, date, hour, duration) {
     var off = (data.utc_offsets && data.utc_offsets[date]) || "+00:00";
     return "https://book.pirate.com/booking/" + room.site + "/" + room.studio_id + "/" + date + "T" + hh(hour) + ":00" + off +
       "?duration=" + duration + "&studio_super_type=1&total_guests=0";
   }
+  // For each day: studios -> rooms that have at least minHours free in a row
+  // inside the time window. Each room keeps its hour-by-hour state for the grid.
+  function findRooms(f) {
+    var now = londonNow();
+    var siteName = {}; SITES.forEach(function (s) { siteName[s[0]] = s[1]; });
+    var rooms = data.rooms.filter(function (r) { return f.sites.indexOf(r.site) >= 0 && f.types.indexOf(r.type) >= 0; });
+    var days = [];
+    for (var d = f.dateFrom; d <= f.dateTo; d = addDays(d, 1)) {
+      if (d < now.date) continue;
+      var bySite = {}, count = 0;
+      rooms.forEach(function (r) {
+        var hours = (data.free[r.key] || {})[d];
+        if (!hours) return;
+        var cells = [], firstStart = null, run = 0;
+        for (var h = f.timeFrom; h < f.timeTo; h++) {
+          var past = d === now.date && h <= now.hour;
+          var state = past ? "past" : hours.charAt(h) === "1" ? "free" : hours.charAt(h) === "0" ? "booked" : "unknown";
+          cells.push({ h: h, state: state });
+        }
+        // mark free hours that belong to a long-enough run
+        for (var i = 0; i <= cells.length; i++) {
+          if (i < cells.length && cells[i].state === "free") { run++; continue; }
+          if (run >= f.minHours) {
+            for (var k = i - run; k < i; k++) cells[k].fits = true;
+            if (firstStart === null) firstStart = cells[i - run].h;
+          }
+          run = 0;
+        }
+        if (firstStart === null) return;
+        count++;
+        (bySite[r.site] = bySite[r.site] || []).push({ room: r, cells: cells, firstStart: firstStart });
+      });
+      var sites = Object.keys(bySite).sort(function (a, b) { return (siteName[a] || a).localeCompare(siteName[b] || b); })
+        .map(function (s) {
+          return { slug: s, name: siteName[s] || s, rooms: bySite[s].sort(function (a, b) {
+            return typeOrder(a.room.type) - typeOrder(b.room.type) || a.room.name.localeCompare(b.room.name, undefined, { numeric: true });
+          }) };
+        });
+      days.push({ date: d, sites: sites, count: count });
+    }
+    return days;
+  }
   function render(f) {
-    var days = findSlots(f), out = [], total = 0;
-    days.forEach(function (day) {
-      out.push('<h2 class="day">' + esc(niceDate(day.date)) + "</h2>");
+    var days = findRooms(f), total = 0;
+    days.forEach(function (d) { total += d.count; });
+    if (!days.some(function (d) { return d.date === shownDay; })) {
+      var firstWith = days.filter(function (d) { return d.count; })[0] || days[0];
+      shownDay = firstWith ? firstWith.date : null;
+    }
+    // day tabs
+    $("dayTabs").innerHTML = days.map(function (d) {
+      var dt = new Date(d.date + "T12:00:00Z");
+      return '<button class="daytab' + (d.date === shownDay ? " on" : "") + (d.count ? "" : " none") + '" data-day="' + d.date + '">' +
+        "<b>" + dt.toLocaleDateString("en-GB", { weekday: "short", timeZone: "UTC" }) + " " + dt.getUTCDate() + "</b>" +
+        "<span>" + d.count + "</span></button>";
+    }).join("");
+    $("dayTabs").querySelectorAll(".daytab").forEach(function (b) {
+      b.addEventListener("click", function () { shownDay = b.dataset.day; render(readFilters()); });
+    });
+    var on = $("dayTabs").querySelector(".daytab.on");
+    if (on && on.scrollIntoView) on.scrollIntoView({ block: "nearest", inline: "nearest" });
+
+    var day = days.filter(function (d) { return d.date === shownDay; })[0];
+    var out = [];
+    if (day && day.count) {
+      out.push('<p class="day-title">' + esc(niceDate(day.date)) + "</p>");
       day.sites.forEach(function (s) {
-        out.push('<div class="site-card"><h3>' + esc(s.name) + "</h3>");
-        s.rooms.sort(function (a, b) { return typeOrder(a.room.type) - typeOrder(b.room.type) || a.room.name.localeCompare(b.room.name, undefined, { numeric: true }); })
-          .forEach(function (x) {
-            out.push('<div class="room"><div class="room-name">' + esc(x.room.name) + '<span class="type">' + esc(x.room.type) + "</span></div>");
-            x.blocks.forEach(function (b) {
-              total++;
-              var len = b[1] - b[0];
-              out.push('<a class="slot" target="_blank" rel="noopener" href="' + esc(bookingUrl(x.room, day.date, b[0], Math.min(f.minHours, len))) + '">' +
-                hh(b[0]) + "–" + hh(b[1]) + "<span>" + len + "h</span></a>");
-            });
-            out.push("</div>");
+        out.push('<div class="site-card"><h3>' + esc(s.name) + '<span class="muted small">' + s.rooms.length + " room" + (s.rooms.length > 1 ? "s" : "") + "</span></h3>");
+        s.rooms.forEach(function (x) {
+          var href = bookingUrl(x.room, day.date, x.firstStart, f.minHours);
+          out.push('<div class="room"><a class="room-name" target="_blank" rel="noopener" href="' + esc(href) + '">' +
+            esc(x.room.name) + '<span class="type">' + esc(x.room.type) + '</span><span class="go">Book ' + hh(x.firstStart) + " ›</span></a>");
+          out.push('<div class="grid" style="--n:' + x.cells.length + '">');
+          x.cells.forEach(function (c) {
+            var label = '<span class="t">' + pad(c.h) + "</span>";
+            if (c.state === "free") {
+              out.push('<a class="cell free' + (c.fits ? " fits" : "") + '" target="_blank" rel="noopener" title="Book from ' + hh(c.h) + '" href="' +
+                esc(bookingUrl(x.room, day.date, c.h, f.minHours)) + '"><i></i>' + label + "</a>");
+            } else {
+              out.push('<span class="cell ' + c.state + '" title="' + (c.state === "booked" ? "Booked" : c.state === "past" ? "Past" : "No data") + '"><i></i>' + label + "</span>");
+            }
           });
+          out.push("</div></div>");
+        });
         out.push("</div>");
       });
-    });
-    $("results").innerHTML = out.length ? out.join("") : '<div class="empty">' + (document.querySelector(".brand .logo") || {}).outerHTML + 'Nothing free that matches.<br>Try more studios, a wider time window or fewer hours in a row.</div>';
-    $("resultsSummary").textContent = total + " free time block" + (total === 1 ? "" : "s") + ", " + shortDate(f.dateFrom) + " to " + shortDate(f.dateTo) + ", " + hh(f.timeFrom) + "–" + hh(f.timeTo) + ", at least " + f.minHours + "h in a row. Tap a time to book it on Pirate (starts with " + f.minHours + "h; you can change it there).";
+    } else if (day) {
+      out.push('<div class="empty">' + (document.querySelector(".brand .logo") || {}).outerHTML + "Nothing free that matches on " + esc(niceDate(day.date)) + ".<br>Try another day, more studios, a wider time window or fewer hours in a row.</div>");
+    } else {
+      out.push('<div class="empty">' + (document.querySelector(".brand .logo") || {}).outerHTML + "No days to show.</div>");
+    }
+    $("results").innerHTML = out.join("");
+    $("resultsSummary").innerHTML = hh(f.timeFrom) + "–" + hh(f.timeTo) + ", at least " + f.minHours + "h in a row. " +
+      '<span class="legend"><i class="cell free fits"><i></i></i> free <i class="cell booked"><i></i></i> booked</span><br>Tap a room or a free hour to book it on Pirate.';
     $("count").hidden = false; $("count").textContent = total;
   }
 
@@ -320,38 +334,16 @@
       status("");
       render(readFilters()); showTab("results");
     }).catch(function (e) {
-      if (e.message !== "no token") status(e.message || String(e), true);
+      status(e.message || String(e), true);
     }).then(function () { busy = false; $("searchBtn").disabled = false; $("refreshBtn").disabled = false; });
   }
   $("searchBtn").addEventListener("click", function () { search(false); });
-  $("refreshBtn").addEventListener("click", function () { showTab("search"); search(true); });
-
-  function useHelper() {
-    server = true;
-    $("tokenGroup").hidden = true;
-  }
-
-  // ---- token -------------------------------------------------------------------
-  function showToken() { $("tokenState").textContent = token() ? "A key is saved on this device." : "No key saved yet."; $("token").value = ""; }
-  $("saveToken").addEventListener("click", function () {
-    var v = $("token").value.trim();
-    if (!v) return;
-    store("gh_token", v); showToken();
-    $("tokenState").textContent = "Checking the key…";
-    gh("/actions/workflows/" + WORKFLOW).then(function () { $("tokenState").textContent = "Key saved and working."; })
-      .catch(function (e) { $("tokenState").textContent = "Key saved, but: " + e.message; });
-  });
-  $("clearToken").addEventListener("click", function () { store("gh_token", null); showToken(); });
+  $("refreshBtn").addEventListener("click", function () { search(true); });
 
   // ---- start ---------------------------------------------------------------------
   buildForm();
-  showToken();
   try { data = JSON.parse(store("schedule") || "null"); } catch (e) { data = null; }
   showDataInfo();
-  fetch("api/health", { cache: "no-store" })
-    .then(function (r) { return r.ok ? r.json() : null; })
-    .then(function (j) { if (j && j.ok) useHelper(j); }, function () {})
-    .then(function () { return loadData(); })
-    .catch(function () {});
+  loadData().catch(function () {});
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(function () {});
 })();

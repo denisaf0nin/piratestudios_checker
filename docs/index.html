@@ -48,7 +48,7 @@
         <label>From<input type="date" id="dateFrom"></label>
         <label>To<input type="date" id="dateTo"></label>
       </div>
-      <p class="muted small">Up to 14 days. Changing dates fetches new data (takes a few minutes).</p>
+      <p class="muted small">Up to 14 days. New dates fetch fresh data from Pirate (a few minutes). <button type="button" id="refreshBtn" class="link small">Refresh data for these dates</button></p>
     </div>
 
     <div class="group">
@@ -70,34 +70,16 @@
 
   <!-- RESULTS -->
   <section id="tab-results" class="tab">
-    <p id="resultsSummary" class="muted"></p>
+    <div id="dayTabs" class="daytabs" role="tablist"></div>
+    <p id="resultsSummary" class="muted small"></p>
     <div id="results"></div>
   </section>
 
-  <!-- SETTINGS -->
-  <section id="tab-settings" class="tab">
-    <div class="group" id="tokenGroup">
-      <h2>GitHub key</h2>
-      <p class="small">The app needs this once, so it can ask GitHub to fetch new studio data. It stays on this phone only. See the README for how to make one.</p>
-      <input type="password" id="token" placeholder="github_pat_..." autocomplete="off" spellcheck="false">
-      <div class="row">
-        <button id="saveToken" class="primary small-btn">Save</button>
-        <button id="clearToken" class="small-btn">Remove</button>
-      </div>
-      <p id="tokenState" class="small muted"></p>
-    </div>
-    <div class="group">
-      <h2>Data</h2>
-      <p id="dataInfo" class="small"></p>
-      <button id="refreshBtn" class="small-btn">Fetch fresh data for my dates</button>
-    </div>
-  </section>
 </main>
 
 <nav class="tabs">
   <button data-tab="search" class="active">Search</button>
   <button data-tab="results">Results <span id="count" class="badge" hidden></span></button>
-  <button data-tab="settings">Settings</button>
 </nav>
 
 <script src="app.js"></script>

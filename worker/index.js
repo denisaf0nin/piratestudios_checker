@@ -90,7 +90,18 @@ async function runStatus(url, env) {
   if (!r.ok) return json({ error: `GitHub error ${r.status}` }, 502);
   const run = ((await r.json()).workflow_runs || []).find((x) => (x.display_title || "").endsWith(" " + id));
   if (!run) return json({ status: "starting" });
-  return json({ status: run.status, conclusion: run.conclusion, url: run.html_url });
+  // When the "Pull schedule" step started, so the app can estimate progress.
+  let pull_started_at = null;
+  if (run.status === "in_progress") {
+    const j = await gh(env, `/actions/runs/${run.id}/jobs`);
+    if (j.ok) {
+      for (const job of (await j.json()).jobs || []) {
+        const step = (job.steps || []).find((st) => /^Pull schedule/.test(st.name));
+        if (step && step.started_at) pull_started_at = step.started_at;
+      }
+    }
+  }
+  return json({ status: run.status, conclusion: run.conclusion, url: run.html_url, pull_started_at });
 }
 
 async function latestData(env) {
