@@ -1,7 +1,7 @@
 /* Gig poster look: heavy condensed type, black borders, acid yellow. */
 :root {
   --bg: #f1ede2; --card: #fffdf6; --ink: #0d0d0d; --mute: #6d6a62; --line: #0d0d0d;
-  --acc: #e4ff1a; --on-acc: #0c0c0c; --sh: #0d0d0d; --grid: rgba(13,13,13,.06);
+  --acc: #e4ff1a; --on-acc: #0c0c0c; --sh: #0d0d0d; --grid: rgba(13,13,13,.06); --river: #3d3d3d;
   --on-bg: var(--ink); --on-ink: var(--bg); --warn: #b42300;
   --display: Anton, Impact, "Arial Narrow", sans-serif;
   --text: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -9,7 +9,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #0c0c0c; --card: #161616; --ink: #f3f0e6; --mute: #8d8a80; --line: #f3f0e6;
-    --sh: #2a2a2a; --grid: rgba(243,240,230,.06); --warn: #ff8a65;
+    --sh: #2a2a2a; --grid: rgba(243,240,230,.06); --warn: #ff8a65; --river: #5a5955;
     /* selected things go yellow on dark */
     --on-bg: var(--acc); --on-ink: #0c0c0c;
   }
@@ -46,7 +46,7 @@ main { max-width: 640px; margin: 0 auto; padding: 0 18px; }
 .map { position: relative; height: 214px; border: 3px solid var(--line); background: var(--card); box-shadow: 5px 5px 0 var(--sh); overflow: hidden;
   background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px); background-size: 24px 24px; }
 .river { position: absolute; left: 0; right: 0; top: 0; bottom: 26px; width: 100%; height: calc(100% - 26px); }
-.river path { fill: none; stroke: var(--ink); stroke-width: 9; }
+.river path { fill: none; stroke: var(--river); stroke-width: 9; }
 .thames { position: absolute; left: 33%; top: 48%; font: 400 11px var(--display); letter-spacing: .3em; color: var(--acc); text-transform: uppercase; transform: rotate(-6deg); z-index: 1; pointer-events: none; }
 .nmark { position: absolute; top: 6px; right: 8px; font: 400 14px var(--display); border: 2px solid var(--line); width: 24px; height: 24px;
   display: flex; align-items: center; justify-content: center; z-index: 2; background: var(--card); }
