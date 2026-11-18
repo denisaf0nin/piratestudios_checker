@@ -18,14 +18,14 @@
     ["croydon-purley-way", "Croydon"], ["london-dalston", "Dalston"],
     ["london-lydden-road-earlsfield", "Earlsfield"], ["london-greenwich-bugsby-s-way", "Greenwich"],
     ["london-hackney", "Hackney"], ["london-notting-hill-the-arches", "Notting Hill"],
-    ["london-tottenham", "Tottenham"], ["london-wembley-abbeydale-road", "Wembley"]
+    ["london-wembley-abbeydale-road", "Wembley"]
   ].sort(function (a, b) { return a[1].localeCompare(b[1]); });
   // Same order as data/london_sites.json, which is the order the fetch script uses.
   var FETCH_ORDER = [
     ["london-camden", "Camden"], ["croydon-purley-way", "Croydon"], ["london-dalston", "Dalston"],
     ["london-lydden-road-earlsfield", "Earlsfield"], ["london-greenwich-bugsby-s-way", "Greenwich"],
     ["london-hackney", "Hackney"], ["london-notting-hill-the-arches", "Notting Hill"],
-    ["london-tottenham", "Tottenham"], ["london-wembley-abbeydale-road", "Wembley"], ["london-brixton", "Brixton"]
+    ["london-wembley-abbeydale-road", "Wembley"], ["london-brixton", "Brixton"]
   ];
   var TYPES = [["Lite", ""], ["Standard", ""], ["Pro", ""], ["Extra", "Camden"], ["Acoustic", "Dalston"]];
 

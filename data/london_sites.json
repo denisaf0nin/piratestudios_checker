@@ -21,7 +21,8 @@
   },
   "notes": [
     "Studio room lists are a snapshot; rooms can change. The app should read studio_type.name from each search response rather than rely on this list.",
-    "Slot times in the response are returned with +00:00 offsets; the response window is wider than the requested hours."
+    "Slot times in the response are returned with +00:00 offsets; the response window is wider than the requested hours.",
+    "2026-11-18: Tottenham (london-tottenham) removed at Denis's request."
   ],
   "sites": [
     {
@@ -267,42 +268,6 @@
         "Rehearsal Pro"
       ],
       "rehearsal_room_count": 7,
-      "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
-    },
-    {
-      "deck_slug": "london-tottenham",
-      "site_id": 35,
-      "name": "London, Tottenham",
-      "area": "Tottenham",
-      "address": "2 Norman Road, London",
-      "postcode": "N15 4ND",
-      "lat": null,
-      "lng": null,
-      "rehearsal": {
-        "Rehearsal Lite": [
-          "Studio 30",
-          "Studio 41"
-        ],
-        "Rehearsal Standard": [
-          "Studio 31",
-          "Studio 32",
-          "Studio 42"
-        ],
-        "Rehearsal Pro": [
-          "Studio 25",
-          "Studio 26",
-          "Studio 27",
-          "Studio 28",
-          "Studio 29"
-        ]
-      },
-      "notes": "Not in api.pirate.com/sites, but linked from pirate.com and returns its own studios from /v1/search. Address from pirate.com London page. Site notice: lift out of service, stairs only.",
-      "rehearsal_types": [
-        "Rehearsal Lite",
-        "Rehearsal Standard",
-        "Rehearsal Pro"
-      ],
-      "rehearsal_room_count": 10,
       "verified": "2026-11-17: /v1/search returned HTTP 200 with studios for this slug"
     },
     {
