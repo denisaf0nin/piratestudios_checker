@@ -46,7 +46,7 @@
   function shortDate(iso) { return new Date(iso + "T12:00:00Z").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }); }
   function ago(iso) {
     var m = Math.round((Date.now() - new Date(iso)) / 60000);
-    if (m < 1) return "just now"; if (m < 60) return m + " min ago";
+    if (m < 1) return "just now"; if (m < 120) return m + " min ago";
     var h = Math.round(m / 60); if (h < 48) return h + " h ago"; return Math.round(h / 24) + " days ago";
   }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
@@ -142,7 +142,7 @@
     var line = $("dataLine");
     if (!data) { line.textContent = "No studio data loaded yet."; return; }
     var n = fetchedSites(data).length;
-    line.textContent = "Data for " + shortDate(data.start) + " to " + shortDate(data.end) + ", " + n + " studio" + (n > 1 ? "s" : "") + ", fetched " + ago(data.generated_at) + "." +
+    line.textContent = "Data for " + shortDate(data.start) + " to " + shortDate(data.end) + ", " + n + " studio" + (n > 1 ? "s" : "") + ", pulled " + ago(data.generated_at) + "." +
       (data.errors && data.errors.length ? " " + data.errors.length + " requests failed, so some rooms may be missing." : "");
   }
 
@@ -320,7 +320,10 @@
   // Unticking a studio just filters; ticking one that isn't in the data means a new pull.
   function fetchedSites(d) { return (d && d.fetched_sites) || FETCH_ORDER.map(function (s) { return s[0]; }); }
   function missingSites(d, f) { return f.sites.filter(function (s) { return fetchedSites(d).indexOf(s) < 0; }); }
-  function covers(d, f) { return d && d.start <= f.dateFrom && d.end >= f.dateTo && !missingSites(d, f).length; }
+  // Data older than this is stale: the next Search pulls again.
+  var MAX_AGE_MS = 60 * 60 * 1000;
+  function isStale(d) { return !d || !d.generated_at || Date.now() - new Date(d.generated_at) > MAX_AGE_MS; }
+  function covers(d, f) { return d && !isStale(d) && d.start <= f.dateFrom && d.end >= f.dateTo && !missingSites(d, f).length; }
   function siteNames(slugs) {
     var n = {}; SITES.forEach(function (s) { n[s[0]] = s[1]; });
     var names = slugs.map(function (x) { return n[x] || x; });
@@ -335,6 +338,7 @@
       var miss = missingSites(data, f);
       var datesOk = data.start <= f.dateFrom && data.end >= f.dateTo;
       if (!datesOk) msg = "New dates: Search will pull fresh data for the " + f.sites.length + " ticked studio" + (f.sites.length > 1 ? "s" : "") + ".";
+      else if (isStale(data)) msg = "The data was pulled " + ago(data.generated_at) + " (more than 1 hour), so Search will pull fresh data for the " + f.sites.length + " ticked studio" + (f.sites.length > 1 ? "s" : "") + ".";
       else if (miss.length) msg = siteNames(miss) + (miss.length > 1 ? " aren't" : " isn't") + " in the current data, so Search will pull all " + f.sites.length + " ticked studios again.";
     }
     h.textContent = msg; h.hidden = !msg;
@@ -369,6 +373,7 @@
   try { data = JSON.parse(store("schedule") || "null"); } catch (e) { data = null; }
   showDataInfo();
   updateHint();
+  setInterval(function () { showDataInfo(); updateHint(); }, 60000);
   loadData().catch(function () {});
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(function () {});
 })();
