@@ -48,7 +48,7 @@
         <label>From<input type="date" id="dateFrom"></label>
         <label>To<input type="date" id="dateTo"></label>
       </div>
-      <p class="muted small">Up to 14 days. New dates fetch fresh data from Pirate (a few minutes). <button type="button" id="refreshBtn" class="link small">Refresh data for these dates</button></p>
+      <p class="muted small">Up to 14 days. New dates, or adding a studio, pull fresh data from Pirate for the ticked studios (a few minutes). <button type="button" id="refreshBtn" class="link small">Refresh data for these dates</button></p>
     </div>
 
     <div class="group">
@@ -64,6 +64,7 @@
       <div id="minHours" class="seg"></div>
     </div>
 
+    <p id="pullHint" class="hint" hidden></p>
     <button id="searchBtn" class="primary">Search</button>
     <div id="status" class="status" hidden></div>
   </section>

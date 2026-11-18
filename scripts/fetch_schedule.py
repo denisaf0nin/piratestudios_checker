@@ -15,7 +15,10 @@ How the Pirate search API behaves (checked 2026-11-17):
 
 Usage:
   python3 scripts/fetch_schedule.py --start 2026-11-20 --end 2026-11-23
-  python3 scripts/fetch_schedule.py --start 2026-11-20 --end 2026-11-20 --out /tmp/s.json
+  python3 scripts/fetch_schedule.py --start 2026-11-20 --end 2026-11-23 --only london-camden,london-hackney
+
+Only the studios asked for are fetched, and the file is replaced with just
+those studios and dates (fetched_sites lists them).
 
 Only the Python standard library is used.
 """
@@ -104,8 +107,9 @@ def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--start", required=True, help="first day, YYYY-MM-DD")
     p.add_argument("--end", required=True, help="last day, YYYY-MM-DD (inclusive)")
+    p.add_argument("--only", default="", help="comma-separated site slugs to fetch (default: all)")
     p.add_argument("--out", default=str(DEFAULT_OUT))
-    p.add_argument("--sites", default=str(SITES_FILE))
+    p.add_argument("--sites-file", default=str(SITES_FILE))
     args = p.parse_args()
 
     start = date.fromisoformat(args.start)
@@ -115,19 +119,26 @@ def main():
     if (end - start).days + 1 > MAX_DAYS:
         sys.exit(f"Date range is longer than {MAX_DAYS} days.")
 
-    sites_doc = json.loads(Path(args.sites).read_text(encoding="utf-8"))
+    sites_doc = json.loads(Path(args.sites_file).read_text(encoding="utf-8"))
     sites = [
         {"slug": s["deck_slug"], "name": s.get("area") or s.get("name"), "full_name": s.get("name"),
          "address": s.get("address"), "postcode": s.get("postcode")}
         for s in sites_doc["sites"]
     ]
+    known = {s["slug"] for s in sites}
+    only = [x.strip() for x in args.only.split(",") if x.strip()]
+    unknown = [x for x in only if x not in known]
+    if unknown:
+        sys.exit(f"Unknown site(s): {', '.join(unknown)}")
+    to_fetch = [s for s in sites if not only or s["slug"] in only]
 
     rooms, free, offsets, errors = {}, {}, {}, []
     days = [start + timedelta(days=i) for i in range((end - start).days + 1)]
-    total = len(days) * len(sites)
+    fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    total = len(days) * len(to_fetch)
     n = 0
     sample_saved = False
-    for site in sites:
+    for site in to_fetch:
         for day in days:
             n += 1
             if n > 1:
@@ -149,19 +160,21 @@ def main():
             print(f"[{n}/{total}] {site['slug']} {day}: {len(data)} studios", flush=True)
 
     out = {
-        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "generated_at": fetched_at,
         "start": start.isoformat(),
         "end": end.isoformat(),
         "timezone": "Europe/London",
         "utc_offsets": offsets,
         "sites": sites,
+        "fetched_sites": [x["slug"] for x in to_fetch],
         "rooms": sorted(rooms.values(), key=lambda r: (r["site"], r["type"], r["name"] or "")),
         "free": free,
         "errors": errors,
     }
     Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     Path(args.out).write_text(json.dumps(out, separators=(",", ":")), encoding="utf-8")
-    print(f"Saved {len(rooms)} rooms, {len(days)} days, {len(errors)} errors -> {args.out}")
+    print(f"Fetched {len(to_fetch)} studios x {len(days)} days: {len(rooms)} rooms, "
+          f"{len(errors)} errors -> {args.out}")
     if errors and len(errors) == total:
         sys.exit("Every request failed.")
 
