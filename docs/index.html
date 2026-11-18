@@ -4,13 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Studio Finder</title>
-<meta name="theme-color" content="#111111">
+<meta name="theme-color" content="#f1ede2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0c0c0c" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Studio Finder">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/logo.svg" type="image/svg+xml">
 <link rel="alternate icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,59 +24,65 @@
       <ellipse cx="80" cy="52" rx="73" ry="46" stroke="currentColor" stroke-width="9"/>
       <path fill="currentColor" fill-rule="evenodd" d="M62 22H86A18 18 0 0 1 86 58H73V82H62ZM73 31V49H85A9 9 0 0 0 85 31Z"/>
     </svg>
-    <h1>Studio Finder</h1>
+    <h1>Studio<br>Finder</h1>
+    <span id="stamp" class="stamp" hidden></span>
   </div>
-  <p id="dataLine" class="muted small"></p>
+  <p id="dataLine" class="dataline"></p>
 </header>
 
 <main>
   <!-- SEARCH -->
   <section id="tab-search" class="tab active">
-    <div class="group">
-      <div class="group-head">
-        <h2>Studios</h2>
+    <div class="sec">
+      <div class="sh"><b>01</b><h2>Where</h2>
         <button type="button" class="link" data-all="site">All</button>
         <button type="button" class="link" data-none="site">None</button>
       </div>
-      <div id="sites" class="chips"></div>
-    </div>
-
-    <div class="group">
-      <div class="group-head"><h2>Room types</h2></div>
-      <div id="types" class="chips"></div>
-    </div>
-
-    <div class="group">
-      <h2>Dates</h2>
-      <div class="row">
-        <label>From<input type="date" id="dateFrom"></label>
-        <label>To<input type="date" id="dateTo"></label>
-      </div>
-      <p class="muted small">Up to 14 days. New dates, adding a studio, or data over 1 hour old pull fresh data from Pirate for the ticked studios (a few minutes). <button type="button" id="refreshBtn" class="link small">Refresh data for these dates</button></p>
-    </div>
-
-    <div class="group">
-      <h2>Time of day</h2>
-      <div class="row">
-        <label>From<select id="timeFrom"></select></label>
-        <label>To<select id="timeTo"></select></label>
+      <div id="map" class="map">
+        <svg class="river" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M-2 50 C10 47 16 62 30 60 S42 46 54 52 S66 66 76 60 S88 48 102 54"/>
+        </svg>
+        <span class="thames" aria-hidden="true">Thames</span>
+        <span class="nmark" aria-hidden="true">N</span>
+        <div id="sites"></div>
+        <div class="mapft"><span><b id="siteCount">0</b>of 9 studios</span>
+          <span><button type="button" class="link" data-all="site">All</button> · <button type="button" class="link" data-none="site">None</button></span></div>
       </div>
     </div>
 
-    <div class="group">
-      <h2>Minimum hours in a row</h2>
-      <div id="minHours" class="seg"></div>
+    <div class="sec">
+      <div class="sh"><b>02</b><h2>Room</h2></div>
+      <div id="types" class="tri"></div>
+    </div>
+
+    <div class="sec">
+      <div class="sh"><b>03</b><h2>When</h2>
+        <button type="button" id="refreshBtn" class="link">Refresh data</button>
+      </div>
+      <div class="fields">
+        <label class="field">From<input type="date" id="dateFrom"></label>
+        <label class="field">To<input type="date" id="dateTo"></label>
+        <label class="field">From<select id="timeFrom"></select></label>
+        <label class="field">Until<select id="timeTo"></select></label>
+      </div>
+      <p class="note">Up to 14 days. New dates, adding a studio, or data over 1 hour old pull fresh data from Pirate for the ticked studios (a few minutes).</p>
+    </div>
+
+    <div class="sec">
+      <div class="sh"><b>04</b><h2>Hours in a row</h2></div>
+      <div id="minHours" class="nums"></div>
     </div>
 
     <p id="pullHint" class="hint" hidden></p>
-    <button id="searchBtn" class="primary">Search</button>
+    <button id="searchBtn" class="go"><span>Find rooms</span><span aria-hidden="true">→</span>
+      <span id="goProg" class="gp" hidden><i id="goFill"></i><b id="goText"></b></span></button>
     <div id="status" class="status" hidden></div>
   </section>
 
   <!-- RESULTS -->
   <section id="tab-results" class="tab">
-    <div id="dayTabs" class="daytabs" role="tablist"></div>
-    <p id="resultsSummary" class="muted small"></p>
+    <div id="dayTabs" class="dtabs" role="tablist"></div>
+    <p id="resultsSummary" class="meta"></p>
     <div id="results"></div>
   </section>
 
