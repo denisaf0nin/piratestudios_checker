@@ -9,7 +9,7 @@ booking page on Pirate.
 ## How it works
 
 1. When you search **new dates**, the app asks GitHub to run the
-   *Fetch schedule* job. That job asks Pirate for every room at all 10 London
+   *Fetch schedule* job. That job asks Pirate for every room at all 9 London
    studios, for every day in your dates (one request per studio per day, one at
    a time, with a pause between them). It takes about 2 to 6 minutes.
 2. The result is saved in the repo as `docs/data/schedule.json`.
@@ -87,7 +87,7 @@ key in its own **Settings** tab instead. The key is stored only on that device.
 - `docs/data/schedule.json` – the latest fetched schedule
 - `scripts/fetch_schedule.py` – pulls the schedule (Python standard library only)
 - `.github/workflows/fetch-schedule.yml` – the job the app starts
-- `data/london_sites.json` – the 10 London studios and their rooms
+- `data/london_sites.json` – the 9 London studios (Tottenham removed) and their rooms
 - `pirate_slots.py`, `.github/workflows/check-slots.yml` – the earlier one-site test tool
 
 Run the fetch by hand: `python3 scripts/fetch_schedule.py --start 2026-11-20 --end 2026-11-23`
