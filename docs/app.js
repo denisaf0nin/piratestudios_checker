@@ -123,7 +123,7 @@
       minHours: on ? +on.dataset.v : 1
     };
   }
-  function saveFilters() { store("filters", JSON.stringify(readFilters())); }
+  function saveFilters() { store("filters", JSON.stringify(readFilters())); updateHint(); }
 
   // ---- tabs --------------------------------------------------------------------
   function showTab(name) {
@@ -141,7 +141,8 @@
   function showDataInfo() {
     var line = $("dataLine");
     if (!data) { line.textContent = "No studio data loaded yet."; return; }
-    line.textContent = "Data for " + shortDate(data.start) + " to " + shortDate(data.end) + ", fetched " + ago(data.generated_at) + "." +
+    var n = fetchedSites(data).length;
+    line.textContent = "Data for " + shortDate(data.start) + " to " + shortDate(data.end) + ", " + n + " studio" + (n > 1 ? "s" : "") + ", fetched " + ago(data.generated_at) + "." +
       (data.errors && data.errors.length ? " " + data.errors.length + " requests failed, so some rooms may be missing." : "");
   }
 
@@ -153,7 +154,7 @@
       .catch(function () {
         return fetch("data/schedule.json?t=" + Date.now(), { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("no data"); return r.json(); });
       })
-      .then(function (d) { if (!d || !d.rooms || !d.rooms.length) throw new Error("empty data"); data = d; store("schedule", JSON.stringify(d)); showDataInfo(); return d; });
+      .then(function (d) { if (!d || !d.rooms || !d.rooms.length) throw new Error("empty data"); data = d; store("schedule", JSON.stringify(d)); showDataInfo(); updateHint(); return d; });
   }
   function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
   function api(path, body) {
@@ -166,23 +167,24 @@
   // Progress is an estimate: the fetch script goes through the studios in
   // FETCH_ORDER, one request per studio per day, about SECS_PER_REQUEST each
   // (measured on GitHub). GitHub tells us when the pull step starts and ends.
-  function progressText(days, pullStart) {
-    var total = days * FETCH_ORDER.length;
+  function progressText(days, pullStart, order) {
+    var total = days * order.length;
     var done = Math.min(total - 1, Math.floor((Date.now() - pullStart) / 1000 / SECS_PER_REQUEST));
     var site = Math.floor(done / days), day = done % days + 1;
-    var name = FETCH_ORDER[site][1];
+    var name = order[site][1];
     var remaining = (total - done) * SECS_PER_REQUEST + 5;
-    return "Pulling " + name + " (studio " + (site + 1) + " of " + FETCH_ORDER.length + ")" +
+    return "Pulling " + name + " (studio " + (site + 1) + " of " + order.length + ")" +
       (days > 1 ? ", day " + day + " of " + days : "") + " · " + left(remaining);
   }
 
-  function runFetch(from, to) {
+  function runFetch(from, to, sites) {
     var started = Date.now(), days = daysBetween(from, to) + 1;
-    var total = days * FETCH_ORDER.length;
+    var order = FETCH_ORDER.filter(function (s) { return sites.indexOf(s[0]) >= 0; });
+    var total = days * order.length;
     var id = null, run = { status: "starting" }, timer = null, finished = false;
     function draw() {
       var head = '<span class="spinner"></span>', msg;
-      if (run.pull_started_at) msg = progressText(days, Date.parse(run.pull_started_at));
+      if (run.pull_started_at) msg = progressText(days, Date.parse(run.pull_started_at), order);
       else if (run.status === "queued") msg = "Waiting in GitHub's queue";
       else msg = "Starting up (about 30 s) · then " + total + " requests, " + left(total * SECS_PER_REQUEST + 30);
       status(head + esc(msg) + '<div class="muted small">Elapsed ' + mmss((Date.now() - started) / 1000) + ". You can leave this screen open.</div>");
@@ -191,7 +193,7 @@
     $("status").scrollIntoView({ behavior: "smooth", block: "center" });
     timer = setInterval(function () { if (!finished) draw(); }, 1000);
     function stop() { finished = true; clearInterval(timer); }
-    return api("api/fetch", { start: from, end: to }).then(function (r) {
+    return api("api/fetch", { start: from, end: to, sites: sites }).then(function (r) {
       id = r.id;
       function poll() {
         return sleep(POLL_MS).then(function () { return api("api/run?id=" + encodeURIComponent(id)); }).then(function (x) {
@@ -314,7 +316,29 @@
   }
 
   // ---- search ------------------------------------------------------------------
-  function covers(d, f) { return d && d.start <= f.dateFrom && d.end >= f.dateTo; }
+  // Data only counts if it has the chosen dates AND every ticked studio.
+  // Unticking a studio just filters; ticking one that isn't in the data means a new pull.
+  function fetchedSites(d) { return (d && d.fetched_sites) || FETCH_ORDER.map(function (s) { return s[0]; }); }
+  function missingSites(d, f) { return f.sites.filter(function (s) { return fetchedSites(d).indexOf(s) < 0; }); }
+  function covers(d, f) { return d && d.start <= f.dateFrom && d.end >= f.dateTo && !missingSites(d, f).length; }
+  function siteNames(slugs) {
+    var n = {}; SITES.forEach(function (s) { n[s[0]] = s[1]; });
+    var names = slugs.map(function (x) { return n[x] || x; });
+    return names.length > 1 ? names.slice(0, -1).join(", ") + " and " + names[names.length - 1] : names[0];
+  }
+  // Tell the user, before they press Search, whether it will need a new pull and why.
+  function updateHint() {
+    var f = readFilters(), h = $("pullHint");
+    if (!h) return;
+    var msg = "";
+    if (data && f.sites.length) {
+      var miss = missingSites(data, f);
+      var datesOk = data.start <= f.dateFrom && data.end >= f.dateTo;
+      if (!datesOk) msg = "New dates: Search will pull fresh data for the " + f.sites.length + " ticked studio" + (f.sites.length > 1 ? "s" : "") + ".";
+      else if (miss.length) msg = siteNames(miss) + (miss.length > 1 ? " aren't" : " isn't") + " in the current data, so Search will pull all " + f.sites.length + " ticked studios again.";
+    }
+    h.textContent = msg; h.hidden = !msg;
+  }
   function search(force) {
     if (busy) return;
     fixDateLimits();
@@ -329,7 +353,7 @@
     var first = force ? Promise.resolve(null) : loadData().catch(function () { return null; });
     first.then(function (d) {
       if (!force && covers(d, f)) return d;
-      return runFetch(f.dateFrom, f.dateTo);
+      return runFetch(f.dateFrom, f.dateTo, f.sites);
     }).then(function () {
       status("");
       render(readFilters()); showTab("results");
@@ -344,6 +368,7 @@
   buildForm();
   try { data = JSON.parse(store("schedule") || "null"); } catch (e) { data = null; }
   showDataInfo();
+  updateHint();
   loadData().catch(function () {});
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(function () {});
 })();

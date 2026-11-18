@@ -9,7 +9,7 @@ booking page on Pirate.
 ## How it works
 
 1. When you search **new dates**, the app asks GitHub to run the
-   *Fetch schedule* job. That job asks Pirate for every room at all 9 London
+   *Fetch schedule* job. That job asks Pirate for every room at the ticked London
    studios, for every day in your dates (one request per studio per day, one at
    a time, with a pause between them). It takes about 2 to 6 minutes.
 2. The result is saved in the repo as `docs/data/schedule.json`.

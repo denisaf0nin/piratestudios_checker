@@ -1,7 +1,7 @@
 name: Fetch schedule
 
 # Started by the app (or by hand from the Actions tab). No schedule.
-# Pulls every London site, every rehearsal room, for the chosen days,
+# Pulls the chosen London sites (default all), every rehearsal room, for the chosen days,
 # then saves docs/data/schedule.json for the app to read.
 on:
   workflow_dispatch:
@@ -12,6 +12,10 @@ on:
       end:
         description: "Last day (YYYY-MM-DD), at most 14 days after the first"
         required: true
+      sites:
+        description: "Studios to fetch, comma-separated slugs (empty = all)"
+        required: false
+        default: ""
       request_id:
         description: "Set by the app so it can find this run"
         required: false
@@ -39,7 +43,8 @@ jobs:
         env:
           START: ${{ inputs.start }}
           END: ${{ inputs.end }}
-        run: python3 scripts/fetch_schedule.py --start "$START" --end "$END"
+          SITES: ${{ inputs.sites }}
+        run: python3 scripts/fetch_schedule.py --start "$START" --end "$END" --only "$SITES"
       - name: Save to repo
         run: |
           git config user.name "github-actions[bot]"

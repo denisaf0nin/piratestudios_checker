@@ -4,7 +4,7 @@
  * Serves the app (the docs/ folder) and three small endpoints, so people can
  * use the app without their own GitHub key:
  *   GET  /api/health            -> {ok: true}
- *   POST /api/fetch             -> body {start, end}; starts the GitHub fetch job
+ *   POST /api/fetch             -> body {start, end, sites:[slug,...]}; starts the GitHub fetch job
  *   GET  /api/run?id=<request>  -> {status, conclusion, url} of that job
  *   GET  /api/data              -> latest docs/data/schedule.json from GitHub
  *
@@ -12,7 +12,7 @@
  *   GITHUB_TOKEN  fine-grained token, this repo only, Actions read/write + Contents read
  *
  * No passcode: anyone with the link can fetch. To stay polite to Pirate, a
- * request for dates already being fetched joins that run, and at most
+ * request for the same studios and dates already being fetched joins that run, and at most
  * MAX_ACTIVE fetches can be running or waiting at once.
  */
 const OWNER = "denisaf0nin";
@@ -52,6 +52,13 @@ function dayDiff(a, b) {
 }
 const RUN_TITLE = /^Fetch (\d{4}-\d{2}-\d{2}) to (\d{4}-\d{2}-\d{2}) (\S+)$/;
 
+// Short fingerprint of a set of studios, carried in the run id so a request for
+// the same studios can join a run that is already going.
+async function sitesSig(sites) {
+  const buf = await crypto.subtle.digest("SHA-1", new TextEncoder().encode([...sites].sort().join(",")));
+  return [...new Uint8Array(buf)].slice(0, 4).map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+
 async function startFetch(request, env) {
   let body;
   try { body = await request.json(); } catch { return json({ error: "Bad request." }, 400); }
@@ -60,6 +67,11 @@ async function startFetch(request, env) {
   if (!re.test(start || "") || !re.test(end || "")) return json({ error: "Bad dates." }, 400);
   if (start < londonToday()) return json({ error: "Dates must be today or later." }, 400);
   if (end < start || dayDiff(start, end) + 1 > MAX_DAYS) return json({ error: `Pick up to ${MAX_DAYS} days.` }, 400);
+  const sites = Array.isArray(body.sites) ? [...new Set(body.sites)] : [];
+  if (!sites.length || sites.length > 20 || !sites.every((x) => /^[a-z0-9-]{1,60}$/.test(x))) {
+    return json({ error: "Pick at least one studio." }, 400);
+  }
+  const sig = await sitesSig(sites);
 
   // If someone already started a fetch that covers these dates, join it instead of starting another.
   let active = 0;
@@ -69,15 +81,15 @@ async function startFetch(request, env) {
     for (const run of (await r.json()).workflow_runs || []) {
       active++;
       const m = RUN_TITLE.exec(run.display_title || "");
-      if (m && m[1] <= start && m[2] >= end) return json({ id: m[3], joined: true });
+      if (m && m[1] <= start && m[2] >= end && m[3].endsWith("-" + sig)) return json({ id: m[3], joined: true });
     }
   }
   if (active >= MAX_ACTIVE) return json({ error: "Other people are fetching right now. Try again in a few minutes." }, 429);
 
-  const id = "web-" + crypto.randomUUID().slice(0, 8);
+  const id = "web-" + crypto.randomUUID().slice(0, 6) + "-" + sig;
   const r = await gh(env, `/actions/workflows/${WORKFLOW}/dispatches`, {
     method: "POST",
-    body: JSON.stringify({ ref: BRANCH, inputs: { start, end, request_id: id } }),
+    body: JSON.stringify({ ref: BRANCH, inputs: { start, end, sites: sites.join(","), request_id: id } }),
   });
   if (r.status !== 204) return json({ error: `GitHub refused to start the fetch (${r.status}). The helper's key may be wrong or expired.` }, 502);
   return json({ id });
