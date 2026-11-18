@@ -127,7 +127,67 @@
     t.min = f.value; t.max = addDays(f.value, MAX_DAYS - 1);
     if (!t.value || t.value < f.value) t.value = f.value;
     if (t.value > t.max) t.value = t.max;
+    $("dateText").textContent = rangeText(f.value, t.value);
   }
+  function dayLabel(iso) { return new Date(iso + "T12:00:00Z").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }); }
+  function rangeText(a, b) {
+    if (!a) return "Pick dates";
+    var n = daysBetween(a, b) + 1;
+    return (a === b ? dayLabel(a) : dayLabel(a) + " – " + dayLabel(b)) + " · " + n + " day" + (n > 1 ? "s" : "");
+  }
+
+  // ---- range calendar: tap the first day, then the last day ------------------
+  var cal = { from: null, to: null, month: null };
+  function openCal() {
+    cal.from = $("dateFrom").value; cal.to = $("dateTo").value; cal.month = cal.from.slice(0, 7);
+    $("cal").hidden = false; document.body.style.overflow = "hidden";
+    drawCal();
+  }
+  function closeCal() { $("cal").hidden = true; document.body.style.overflow = ""; }
+  function drawCal() {
+    var today = londonNow().date, picking = cal.from && !cal.to;
+    var y = +cal.month.slice(0, 4), m = +cal.month.slice(5, 7);
+    var first = cal.month + "-01", lead = (new Date(first + "T12:00:00Z").getUTCDay() + 6) % 7;
+    var len = new Date(Date.UTC(y, m, 0)).getUTCDate();
+    $("calMonth").textContent = new Date(first + "T12:00:00Z").toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" });
+    $("calPrev").disabled = cal.month <= today.slice(0, 7);
+    var last = picking ? addDays(cal.from, MAX_DAYS - 1) : null, html = "";
+    for (var i = 0; i < lead; i++) html += '<span class="blank"></span>';
+    for (var d = 1; d <= len; d++) {
+      var iso = cal.month + "-" + pad(d), off = iso < today || (picking && iso > last);
+      var cls = (iso === today ? "today " : "") + (iso === cal.from || iso === cal.to ? "end" : cal.to && iso > cal.from && iso < cal.to ? "in" : "");
+      html += '<button type="button" data-d="' + iso + '" class="' + cls + '"' + (off ? " disabled" : "") + ">" + d + "</button>";
+    }
+    $("calGrid").innerHTML = html;
+    $("calFrom").querySelector("b").textContent = cal.from ? dayLabel(cal.from) : "–";
+    $("calTo").querySelector("b").textContent = cal.to ? dayLabel(cal.to) : "–";
+    $("calFrom").classList.toggle("next", !cal.from || !!cal.to);
+    $("calTo").classList.toggle("next", picking);
+    $("calNote").textContent = picking ? "Now tap the last day (up to " + MAX_DAYS + " days). Tap the same day for one day." : "Tap the first day.";
+    $("calDone").disabled = !cal.from;
+  }
+  function pickDay(iso) {
+    if (!cal.from || cal.to || iso < cal.from) { cal.from = iso; cal.to = null; }
+    else cal.to = iso;
+    drawCal();
+  }
+  function shiftMonth(n) {
+    var d = new Date(cal.month + "-15T12:00:00Z"); d.setUTCMonth(d.getUTCMonth() + n);
+    cal.month = d.toISOString().slice(0, 7); drawCal();
+  }
+  function doneCal() {
+    if (!cal.from) return;
+    $("dateFrom").value = cal.from; $("dateTo").value = cal.to || cal.from;
+    closeCal(); fixDateLimits(); saveFilters();
+  }
+  $("dateBtn").addEventListener("click", openCal);
+  $("calGrid").addEventListener("click", function (e) { var b = e.target.closest("button"); if (b && !b.disabled) pickDay(b.dataset.d); });
+  $("calPrev").addEventListener("click", function () { shiftMonth(-1); });
+  $("calNext").addEventListener("click", function () { shiftMonth(1); });
+  $("calDone").addEventListener("click", doneCal);
+  $("calClose").addEventListener("click", closeCal);
+  $("cal").addEventListener("click", function (e) { if (e.target === $("cal")) closeCal(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !$("cal").hidden) closeCal(); });
   function readFilters() {
     var picked = function (name) { return Array.prototype.map.call(document.querySelectorAll('input[name="' + name + '"]:checked'), function (i) { return i.value; }); };
     var on = document.querySelector("#minHours button.on");

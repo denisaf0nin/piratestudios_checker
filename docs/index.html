@@ -60,8 +60,8 @@
         <button type="button" id="refreshBtn" class="link">Refresh data</button>
       </div>
       <div class="fields">
-        <label class="field">From<input type="date" id="dateFrom"></label>
-        <label class="field">To<input type="date" id="dateTo"></label>
+        <button type="button" id="dateBtn" class="field datebtn">Dates<span id="dateText">Pick dates</span></button>
+        <input type="hidden" id="dateFrom"><input type="hidden" id="dateTo">
         <label class="field">From<select id="timeFrom"></select></label>
         <label class="field">Until<select id="timeTo"></select></label>
       </div>
@@ -87,6 +87,18 @@
   </section>
 
 </main>
+
+<div id="cal" class="sheet" hidden role="dialog" aria-modal="true" aria-label="Pick dates">
+  <div class="sheet-card">
+    <div class="cal-top"><h3>Pick dates</h3><button type="button" id="calClose" class="link">Close</button></div>
+    <div class="cal-pick"><div id="calFrom" class="cal-end"><i>From</i><b>–</b></div><div id="calTo" class="cal-end"><i>To</i><b>–</b></div></div>
+    <div class="cal-head"><button type="button" id="calPrev" aria-label="Previous month">‹</button><h4 id="calMonth"></h4><button type="button" id="calNext" aria-label="Next month">›</button></div>
+    <div class="cal-dow"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+    <div id="calGrid" class="cal-grid"></div>
+    <p id="calNote" class="note"></p>
+    <button type="button" id="calDone" class="go cal-done"><span>Done</span><span aria-hidden="true">→</span></button>
+  </div>
+</div>
 
 <nav class="tabs">
   <button data-tab="search" class="active">Search</button>
