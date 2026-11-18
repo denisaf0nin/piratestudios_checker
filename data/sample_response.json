@@ -1,7 +1,7 @@
 [
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Standard",
@@ -22,137 +22,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -215,7 +215,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Pro",
@@ -236,137 +236,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -425,7 +425,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Standard",
@@ -446,137 +446,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T14:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T15:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T16:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T17:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T18:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T19:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T22:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T23:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T00:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T01:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -644,7 +644,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Standard",
@@ -665,137 +665,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -858,7 +858,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Standard",
@@ -879,137 +879,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -1072,7 +1072,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Standard",
@@ -1093,137 +1093,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -1286,7 +1286,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Pro",
@@ -1307,137 +1307,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -1496,7 +1496,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Standard",
@@ -1517,137 +1517,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T14:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T15:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T16:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T17:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T18:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T19:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T22:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T23:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T00:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T01:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -1710,7 +1710,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Standard",
@@ -1731,137 +1731,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -1924,7 +1924,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Standard",
@@ -1945,137 +1945,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T14:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T15:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T22:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T14:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T15:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T16:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T17:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T18:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T19:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T22:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T23:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T00:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T01:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -2138,7 +2138,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Standard",
@@ -2159,137 +2159,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -2352,7 +2352,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Pro",
@@ -2373,137 +2373,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -2562,7 +2562,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Standard",
@@ -2583,137 +2583,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -2781,7 +2781,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "DJ Standard",
@@ -2802,137 +2802,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -2995,7 +2995,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Standard",
@@ -3016,137 +3016,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -3209,7 +3209,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Probe Standard",
@@ -3230,137 +3230,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T14:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T15:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T16:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T17:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T18:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T19:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T22:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T23:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T00:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T01:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -3423,7 +3423,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Probe Standard",
@@ -3444,137 +3444,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T14:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T15:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T15:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T16:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T17:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T18:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T19:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T22:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T23:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T00:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T01:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -3637,7 +3637,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Probe Pro",
@@ -3658,137 +3658,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T10:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T11:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T12:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T13:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T14:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T15:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T22:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T23:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T00:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -3851,7 +3851,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Standard",
@@ -3872,137 +3872,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -4065,7 +4065,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Lite",
@@ -4086,137 +4086,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -4274,7 +4274,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Pro",
@@ -4295,137 +4295,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -4488,7 +4488,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Pro",
@@ -4509,137 +4509,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -4702,7 +4702,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Pro",
@@ -4723,137 +4723,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -4921,7 +4921,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Pro",
@@ -4942,137 +4942,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -5135,7 +5135,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Lite",
@@ -5156,137 +5156,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -5344,7 +5344,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Pro",
@@ -5365,137 +5365,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T01:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T02:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T08:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T09:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T09:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T10:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T11:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T12:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T13:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T15:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T17:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T18:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T19:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T20:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T21:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T22:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T23:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T13:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T14:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T15:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T16:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T17:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T18:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T19:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T22:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T23:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T00:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T01:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -5558,7 +5558,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Probe Standard",
@@ -5579,137 +5579,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T17:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T18:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T19:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T22:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T19:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T20:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T23:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T00:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -5772,7 +5772,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Standard",
@@ -5793,137 +5793,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -5986,7 +5986,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "",
@@ -6007,137 +6007,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T19:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T23:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T00:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -6196,7 +6196,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Probe Pro",
@@ -6217,137 +6217,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
-    "available": true
+    "available": false
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
-    "available": true
+    "available": false
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
     "selected": false,
-    "available": true
+    "available": false
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -6410,7 +6410,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Probe Pro",
@@ -6431,137 +6431,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T14:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T15:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T16:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T17:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T18:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T19:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T10:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T11:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T12:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T13:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T14:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T15:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T16:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T17:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T18:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T22:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -6624,7 +6624,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Pro",
@@ -6645,137 +6645,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -6838,7 +6838,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Lite",
@@ -6859,137 +6859,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T22:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T23:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T00:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T01:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -7047,7 +7047,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Standard",
@@ -7068,137 +7068,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T11:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T12:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T13:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T23:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T00:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -7261,7 +7261,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Lite",
@@ -7282,137 +7282,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -7470,7 +7470,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Aufnahme Pro",
@@ -7491,137 +7491,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T20:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -7684,7 +7684,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "Podcast Standard",
@@ -7705,137 +7705,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T08:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T09:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T10:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T11:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T12:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-27T13:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T19:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": false
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
+    "time": "2026-11-27T14:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T22:00:00+00:00",
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T23:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T00:00:00+00:00",
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T01:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T20:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T21:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T22:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T23:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T00:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T01:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
@@ -7894,7 +7894,7 @@
  },
  {
   "priority": 100,
-  "start_time": "2026-11-30T03:00:00+00:00",
+  "start_time": "2026-11-27T03:00:00+00:00",
   "duration": 1,
   "display_name": {
    "de": "PROBE LITE",
@@ -7915,137 +7915,137 @@
   },
   "slots": [
    {
-    "time": "2026-11-30T00:00:00+00:00",
+    "time": "2026-11-27T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T01:00:00+00:00",
+    "time": "2026-11-27T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T02:00:00+00:00",
+    "time": "2026-11-27T02:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T03:00:00+00:00",
+    "time": "2026-11-27T03:00:00+00:00",
     "selected": true,
     "available": false
    },
    {
-    "time": "2026-11-30T04:00:00+00:00",
+    "time": "2026-11-27T04:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T05:00:00+00:00",
+    "time": "2026-11-27T05:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T06:00:00+00:00",
+    "time": "2026-11-27T06:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T07:00:00+00:00",
+    "time": "2026-11-27T07:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T08:00:00+00:00",
+    "time": "2026-11-27T08:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T09:00:00+00:00",
+    "time": "2026-11-27T09:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T10:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T11:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T12:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T13:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T14:00:00+00:00",
+    "selected": false,
+    "available": true
+   },
+   {
+    "time": "2026-11-27T15:00:00+00:00",
     "selected": false,
     "available": false
    },
    {
-    "time": "2026-11-30T10:00:00+00:00",
+    "time": "2026-11-27T16:00:00+00:00",
+    "selected": false,
+    "available": false
+   },
+   {
+    "time": "2026-11-27T17:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T11:00:00+00:00",
+    "time": "2026-11-27T18:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T12:00:00+00:00",
+    "time": "2026-11-27T19:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T13:00:00+00:00",
+    "time": "2026-11-27T20:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T14:00:00+00:00",
+    "time": "2026-11-27T21:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T15:00:00+00:00",
+    "time": "2026-11-27T22:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T16:00:00+00:00",
+    "time": "2026-11-27T23:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T17:00:00+00:00",
+    "time": "2026-11-28T00:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T18:00:00+00:00",
+    "time": "2026-11-28T01:00:00+00:00",
     "selected": false,
     "available": true
    },
    {
-    "time": "2026-11-30T19:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T20:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T21:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T22:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-11-30T23:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T00:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T01:00:00+00:00",
-    "selected": false,
-    "available": true
-   },
-   {
-    "time": "2026-12-01T02:00:00+00:00",
+    "time": "2026-11-28T02:00:00+00:00",
     "selected": false,
     "available": false
    }
