@@ -27,6 +27,13 @@
     ["london-hackney", "Hackney"], ["london-notting-hill-the-arches", "Notting Hill"],
     ["london-wembley-abbeydale-road", "Wembley"], ["london-brixton", "Brixton"]
   ];
+  // Where each studio sits on the drawn map: x and y in % of the map, label side.
+  var PINS = {
+    "london-wembley-abbeydale-road": [7, 18, "r"], "london-notting-hill-the-arches": [16, 38, "r"],
+    "london-camden": [37, 15, "r"], "london-dalston": [60, 12, "r"], "london-hackney": [70, 32, "r"],
+    "london-greenwich-bugsby-s-way": [93, 70, "l"], "london-brixton": [42, 66, "r"],
+    "london-lydden-road-earlsfield": [10, 72, "r"], "croydon-purley-way": [50, 82, "r"]
+  };
   var TYPES = [["Lite", ""], ["Standard", ""], ["Pro", ""], ["Extra", "Camden"], ["Acoustic", "Dalston"]];
 
   // ---- small helpers -----------------------------------------------------
@@ -58,18 +65,26 @@
   try { saved = JSON.parse(store("filters") || "{}"); } catch (e) { saved = {}; }
 
   // ---- build the form --------------------------------------------------------
-  function chip(container, name, value, label, note, on) {
+  function chip(container, cls, name, value, label, note, on) {
     var l = document.createElement("label");
-    l.className = "chip" + (on ? " on" : "");
-    l.innerHTML = '<input type="checkbox" name="' + name + '" value="' + esc(value) + '"' + (on ? " checked" : "") + ">" + esc(label) + (note ? "<small>" + esc(note) + "</small>" : "");
+    l.className = cls + (on ? " on" : "");
+    l.innerHTML = '<input type="checkbox" name="' + name + '" value="' + esc(value) + '"' + (on ? " checked" : "") + ">" +
+      (cls.indexOf("pin") === 0 ? "<i></i><span>" + esc(label) + "</span>" : esc(label) + (note ? "<small>" + esc(note) + "</small>" : ""));
     l.querySelector("input").addEventListener("change", function (e) { l.classList.toggle("on", e.target.checked); saveFilters(); });
     container.appendChild(l);
+    return l;
   }
   function buildForm() {
     var siteSel = saved.sites || SITES.map(function (s) { return s[0]; });
-    SITES.forEach(function (s) { chip($("sites"), "site", s[0], s[1], "", siteSel.indexOf(s[0]) >= 0); });
+    SITES.forEach(function (s) {
+      var p = PINS[s[0]] || [50, 50, "r"], l = p[2] === "l";
+      var pin = chip($("sites"), "pin" + (l ? " l" : ""), "site", s[0], s[1], "", siteSel.indexOf(s[0]) >= 0);
+      // the marker square sits on the spot; the name tag hangs off to one side
+      pin.style.left = p[0] + "%"; pin.style.top = p[1] + "%";
+      pin.style.transform = "translate(" + (l ? "calc(-100% + 13px)" : "-13px") + ", -50%)";
+    });
     var typeSel = saved.types || ["Lite", "Standard", "Pro"];
-    TYPES.forEach(function (t) { chip($("types"), "type", t[0], t[0], t[1] ? "(" + t[1] + ")" : "", typeSel.indexOf(t[0]) >= 0); });
+    TYPES.forEach(function (t) { chip($("types"), "tag", "type", t[0], t[0], t[1] ? t[1] + " only" : "", typeSel.indexOf(t[0]) >= 0); });
 
     document.querySelectorAll("[data-all],[data-none]").forEach(function (b) {
       b.addEventListener("click", function () {
@@ -80,7 +95,7 @@
     });
 
     for (var h = 0; h < 24; h++) $("timeFrom").add(new Option(hh(h), h));
-    for (h = 1; h <= 24; h++) $("timeTo").add(new Option(h === 24 ? "24:00 (midnight)" : hh(h), h));
+    for (h = 1; h <= 24; h++) $("timeTo").add(new Option(hh(h), h));
     $("timeFrom").value = saved.timeFrom != null ? saved.timeFrom : 10;
     $("timeTo").value = saved.timeTo != null ? saved.timeTo : 24;
 
@@ -123,7 +138,12 @@
       minHours: on ? +on.dataset.v : 1
     };
   }
-  function saveFilters() { store("filters", JSON.stringify(readFilters())); updateHint(); }
+  function saveFilters() {
+    var f = readFilters();
+    store("filters", JSON.stringify(f));
+    $("siteCount").textContent = f.sites.length;
+    updateHint();
+  }
 
   // ---- tabs --------------------------------------------------------------------
   function showTab(name) {
@@ -140,7 +160,10 @@
   }
   function showDataInfo() {
     var line = $("dataLine");
-    if (!data) { line.textContent = "No studio data loaded yet."; return; }
+    var stamp = $("stamp");
+    if (!data) { line.textContent = "No studio data loaded yet."; stamp.hidden = true; return; }
+    stamp.hidden = false;
+    stamp.textContent = "Data " + ago(data.generated_at).replace(" ago", " old").replace("just now", "fresh");
     var n = fetchedSites(data).length;
     line.textContent = "Data for " + shortDate(data.start) + " to " + shortDate(data.end) + ", " + n + " studio" + (n > 1 ? "s" : "") + ", pulled " + ago(data.generated_at) + "." +
       (data.errors && data.errors.length ? " " + data.errors.length + " requests failed, so some rooms may be missing." : "");
@@ -173,8 +196,21 @@
     var site = Math.floor(done / days), day = done % days + 1;
     var name = order[site][1];
     var remaining = (total - done) * SECS_PER_REQUEST + 5;
-    return "Pulling " + name + " (studio " + (site + 1) + " of " + order.length + ")" +
-      (days > 1 ? ", day " + day + " of " + days : "") + " · " + left(remaining);
+    return {
+      text: "Pulling " + name + " (studio " + (site + 1) + " of " + order.length + ")" +
+        (days > 1 ? ", day " + day + " of " + days : "") + " · " + left(remaining),
+      short: name + " " + (site + 1) + "/" + order.length + " · " + short(remaining),
+      frac: done / total
+    };
+  }
+  function short(secs) { return secs < 50 ? "<1 min" : "~" + Math.max(1, Math.round(secs / 60)) + " min"; }
+  // The striped strip along the bottom of the Find rooms button.
+  function strip(frac, text) {
+    var on = frac != null;
+    $("searchBtn").classList.toggle("busy", on); $("goProg").hidden = !on;
+    if (!on) { $("goFill").style.width = "0"; return; }
+    $("goFill").style.width = Math.round(Math.max(.04, Math.min(1, frac)) * 100) + "%";
+    $("goText").textContent = text;
   }
 
   function runFetch(from, to, sites) {
@@ -183,16 +219,16 @@
     var total = days * order.length;
     var id = null, run = { status: "starting" }, timer = null, finished = false;
     function draw() {
-      var head = '<span class="spinner"></span>', msg;
-      if (run.pull_started_at) msg = progressText(days, Date.parse(run.pull_started_at), order);
-      else if (run.status === "queued") msg = "Waiting in GitHub's queue";
-      else msg = "Starting up (about 30 s) · then " + total + " requests, " + left(total * SECS_PER_REQUEST + 30);
-      status(head + esc(msg) + '<div class="muted small">Elapsed ' + mmss((Date.now() - started) / 1000) + ". You can leave this screen open.</div>");
+      var msg, p;
+      if (run.pull_started_at) { p = progressText(days, Date.parse(run.pull_started_at), order); msg = p.text; strip(p.frac, "Pulling fresh data · " + p.short); }
+      else if (run.status === "queued") { msg = "Waiting in GitHub's queue"; strip(0, "Waiting in the queue"); }
+      else { msg = "Starting up (about 30 s) · then " + total + " requests, " + left(total * SECS_PER_REQUEST + 30); strip(0, "Starting up · " + short(total * SECS_PER_REQUEST + 30)); }
+      status(esc(msg) + '<div class="sub">Elapsed ' + mmss((Date.now() - started) / 1000) + ". You can leave this screen open.</div>");
     }
     draw();
     $("status").scrollIntoView({ behavior: "smooth", block: "center" });
     timer = setInterval(function () { if (!finished) draw(); }, 1000);
-    function stop() { finished = true; clearInterval(timer); }
+    function stop() { finished = true; clearInterval(timer); strip(null); }
     return api("api/fetch", { start: from, end: to, sites: sites }).then(function (r) {
       id = r.id;
       function poll() {
@@ -202,7 +238,7 @@
           if (run.status !== "completed") return poll();
           if (run.conclusion !== "success") throw new Error('The fetch failed on GitHub.' + (run.url ? ' <a href="' + esc(run.url) + '" target="_blank" rel="noopener">See what happened</a>.' : ""));
           stop();
-          status('<span class="spinner"></span>Done. Loading results…');
+          status("Done. Loading results…");
           return sleep(1500).then(loadData);
         });
       }
@@ -242,6 +278,7 @@
           if (i < cells.length && cells[i].state === "free") { run++; continue; }
           if (run >= f.minHours) {
             for (var k = i - run; k < i; k++) cells[k].fits = true;
+            cells[i - run].runLen = run;
             if (firstStart === null) firstStart = cells[i - run].h;
           }
           run = 0;
@@ -270,34 +307,34 @@
     // day tabs
     $("dayTabs").innerHTML = days.map(function (d) {
       var dt = new Date(d.date + "T12:00:00Z");
-      return '<button class="daytab' + (d.date === shownDay ? " on" : "") + (d.count ? "" : " none") + '" data-day="' + d.date + '">' +
-        "<b>" + dt.toLocaleDateString("en-GB", { weekday: "short", timeZone: "UTC" }) + " " + dt.getUTCDate() + "</b>" +
-        "<span>" + d.count + "</span></button>";
+      return '<button class="dt' + (d.date === shownDay ? " on" : "") + (d.count ? "" : " none") + '" data-day="' + d.date + '">' +
+        "<i>" + dt.toLocaleDateString("en-GB", { weekday: "short", timeZone: "UTC" }) + "</i><b>" + dt.getUTCDate() + "</b>" +
+        "<s>" + d.count + " room" + (d.count === 1 ? "" : "s") + "</s></button>";
     }).join("");
-    $("dayTabs").querySelectorAll(".daytab").forEach(function (b) {
+    $("dayTabs").querySelectorAll(".dt").forEach(function (b) {
       b.addEventListener("click", function () { shownDay = b.dataset.day; render(readFilters()); });
     });
-    var on = $("dayTabs").querySelector(".daytab.on");
+    var on = $("dayTabs").querySelector(".dt.on");
     if (on && on.scrollIntoView) on.scrollIntoView({ block: "nearest", inline: "nearest" });
 
     var day = days.filter(function (d) { return d.date === shownDay; })[0];
+    var logo = (document.querySelector(".brand .logo") || {}).outerHTML || "";
     var out = [];
     if (day && day.count) {
-      out.push('<p class="day-title">' + esc(niceDate(day.date)) + "</p>");
       day.sites.forEach(function (s) {
-        out.push('<div class="site-card"><h3>' + esc(s.name) + '<span class="muted small">' + s.rooms.length + " room" + (s.rooms.length > 1 ? "s" : "") + "</span></h3>");
+        out.push('<div class="st"><div class="top"><h3>' + esc(s.name) + "</h3><span>" + s.rooms.length + " free</span></div>");
         s.rooms.forEach(function (x) {
           var href = bookingUrl(x.room, day.date, x.firstStart, f.minHours);
-          out.push('<div class="room"><a class="room-name" target="_blank" rel="noopener" href="' + esc(href) + '">' +
-            esc(x.room.name) + '<span class="type">' + esc(x.room.type) + '</span><span class="go">Book ' + hh(x.firstStart) + " ›</span></a>");
-          out.push('<div class="grid" style="--n:' + x.cells.length + '">');
+          out.push('<div class="rm"><a class="rl" target="_blank" rel="noopener" href="' + esc(href) + '"><b>' +
+            esc(x.room.name) + "</b><em>" + esc(x.room.type) + '</em><span class="bk">Book ' + hh(x.firstStart) + " →</span></a>");
+          out.push('<div class="g" style="--n:' + x.cells.length + '">');
           x.cells.forEach(function (c) {
-            var label = '<span class="t">' + pad(c.h) + "</span>";
+            var run = c.runLen ? '<span class="run">' + c.runLen + "H</span>" : "";
             if (c.state === "free") {
-              out.push('<a class="cell free' + (c.fits ? " fits" : "") + '" target="_blank" rel="noopener" title="Book from ' + hh(c.h) + '" href="' +
-                esc(bookingUrl(x.room, day.date, c.h, f.minHours)) + '"><i></i>' + label + "</a>");
+              out.push('<a class="c free' + (c.fits ? " fit" : "") + (c.runLen ? " rs" : "") + '" target="_blank" rel="noopener" title="Book from ' + hh(c.h) + '" href="' +
+                esc(bookingUrl(x.room, day.date, c.h, f.minHours)) + '">' + run + pad(c.h) + "</a>");
             } else {
-              out.push('<span class="cell ' + c.state + '" title="' + (c.state === "booked" ? "Booked" : c.state === "past" ? "Past" : "No data") + '"><i></i>' + label + "</span>");
+              out.push('<span class="c ' + c.state + '" data-h="' + pad(c.h) + '" title="' + (c.state === "booked" ? "Booked " : c.state === "past" ? "Past " : "No data ") + hh(c.h) + '">' + pad(c.h) + "</span>");
             }
           });
           out.push("</div></div>");
@@ -305,13 +342,13 @@
         out.push("</div>");
       });
     } else if (day) {
-      out.push('<div class="empty">' + (document.querySelector(".brand .logo") || {}).outerHTML + "Nothing free that matches on " + esc(niceDate(day.date)) + ".<br>Try another day, more studios, a wider time window or fewer hours in a row.</div>");
+      out.push('<div class="empty">' + logo + "Nothing free that matches on " + esc(niceDate(day.date)) + ".<br>Try another day, more studios, a wider time window or fewer hours in a row.</div>");
     } else {
-      out.push('<div class="empty">' + (document.querySelector(".brand .logo") || {}).outerHTML + "No days to show.</div>");
+      out.push('<div class="empty">' + logo + "No days to show.</div>");
     }
     $("results").innerHTML = out.join("");
-    $("resultsSummary").innerHTML = hh(f.timeFrom) + "–" + hh(f.timeTo) + ", at least " + f.minHours + "h in a row. " +
-      '<span class="legend"><i class="cell free fits"><i></i></i> free <i class="cell booked"><i></i></i> booked</span><br>Tap a room or a free hour to book it on Pirate.';
+    $("resultsSummary").innerHTML = (day ? esc(niceDate(day.date)) + "<br>" : "") + pad(f.timeFrom) + "–" + pad(f.timeTo) + " · " + f.minHours + "h+ in a row · tap a room to book<br>" +
+      '<span class="key"><i class="k-fit"></i>fits</span><span class="key"><i></i>free</span><span class="key"><i class="k-bk"></i>booked</span>';
     $("count").hidden = false; $("count").textContent = total;
   }
 
@@ -370,6 +407,7 @@
 
   // ---- start ---------------------------------------------------------------------
   buildForm();
+  $("siteCount").textContent = readFilters().sites.length;
   try { data = JSON.parse(store("schedule") || "null"); } catch (e) { data = null; }
   showDataInfo();
   updateHint();
