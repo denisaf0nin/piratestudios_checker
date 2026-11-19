@@ -187,14 +187,14 @@
     "name": "DJ"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "2-deck Pioneer setup"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
     "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
     "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
    },
    "best_for": {
     "en": "Beginners and solo mixing sessions"
@@ -401,13 +401,13 @@
     "name": "DJ"
    },
    "required_verification_level": 2,
-   "tier": "Pro",
-   "equipment_summary": null,
    "excluded_equipment": {
     "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
     "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
     "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
    },
+   "tier": "Pro",
+   "equipment_summary": null,
    "best_for": null
   },
   "first_hour_price": {
@@ -611,14 +611,14 @@
     "name": "DJ"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "2-deck Pioneer setup"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
     "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
     "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
    },
    "best_for": {
     "en": "Beginners and solo mixing sessions"
@@ -825,14 +825,14 @@
     "name": "DJ"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "2-deck Pioneer setup"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
     "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
     "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
    },
    "best_for": {
     "en": "Beginners and solo mixing sessions"
@@ -1039,14 +1039,14 @@
     "name": "DJ"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "2-deck Pioneer setup"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
     "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
     "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
    },
    "best_for": {
     "en": "Beginners and solo mixing sessions"
@@ -1253,13 +1253,13 @@
     "name": "DJ"
    },
    "required_verification_level": 2,
-   "tier": "Pro",
-   "equipment_summary": null,
    "excluded_equipment": {
     "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
     "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
     "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
    },
+   "tier": "Pro",
+   "equipment_summary": null,
    "best_for": null
   },
   "first_hour_price": {
@@ -1463,14 +1463,14 @@
     "name": "DJ"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "2-deck Pioneer setup"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
     "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
     "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
    },
    "best_for": {
     "en": "Beginners and solo mixing sessions"
@@ -1677,14 +1677,14 @@
     "name": "DJ"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "2-deck Pioneer setup"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
     "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
     "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
    },
    "best_for": {
     "en": "Beginners and solo mixing sessions"
@@ -1891,14 +1891,14 @@
     "name": "DJ"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "2-deck Pioneer setup"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>",
     "en": "<div><ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul></div>",
     "es": "<ul><li>Headphones + 1/4 inch adaptor</li><li>USB A-B cables + USB hub</li><li>Microphone + XLR (for MCs)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "2-deck Pioneer setup"
    },
    "best_for": {
     "en": "Beginners and solo mixing sessions"
@@ -2105,14 +2105,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Pro",
-   "equipment_summary": {
-    "en": "Drumkit (with cymbals), bass and guitar amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
    },
    "best_for": {
     "en": "Large group practice"
@@ -2319,14 +2319,14 @@
     "name": "Recording"
    },
    "required_verification_level": 2,
-   "tier": "Pro",
-   "equipment_summary": {
-    "en": "All Standard studio equipment, plus a curtained vocal booth"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
     "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
     "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "All Standard studio equipment, plus a curtained vocal booth"
    },
    "best_for": {
     "en": "Producers, songwriters and vocalists"
@@ -2533,14 +2533,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "Drumkit (no cymbals), bass and guitar amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<div><ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
     "es": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "Drumkit (no cymbals), bass and guitar amps"
    },
    "best_for": {
     "en": "Small group practice"
@@ -2747,14 +2747,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Lite",
-   "equipment_summary": {
-    "en": "Drumkit + cymbals, PA system, no amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<div><ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
     "es": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Lite",
+   "equipment_summary": {
+    "en": "Drumkit + cymbals, PA system, no amps"
    },
    "best_for": {
     "en": "Solo or duo practice"
@@ -2961,14 +2961,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "Drumkit (no cymbals), bass and guitar amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<div><ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
     "es": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "Drumkit (no cymbals), bass and guitar amps"
    },
    "best_for": {
     "en": "Small group practice"
@@ -3175,11 +3175,11 @@
     "name": "DJ"
    },
    "required_verification_level": 2,
+   "excluded_equipment": null,
    "tier": "Lite",
    "equipment_summary": {
     "en": "All-in-one Pioneer DJ system"
    },
-   "excluded_equipment": null,
    "best_for": {
     "en": "Premium experience at a lower cost"
    }
@@ -3379,9 +3379,9 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
+   "excluded_equipment": null,
    "tier": "Extra",
    "equipment_summary": null,
-   "excluded_equipment": null,
    "best_for": null
   },
   "first_hour_price": {
@@ -3585,14 +3585,14 @@
     "name": "Recording"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "Audio interface, midi keyboard, microphone, monitors"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
     "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
     "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "Audio interface, midi keyboard, microphone, monitors"
    },
    "best_for": {
     "en": "Producers and/or songwriters"
@@ -3799,14 +3799,14 @@
     "name": "Recording"
    },
    "required_verification_level": 2,
-   "tier": "Pro",
-   "equipment_summary": {
-    "en": "All Standard studio equipment, plus a curtained vocal booth"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
     "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
     "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "All Standard studio equipment, plus a curtained vocal booth"
    },
    "best_for": {
     "en": "Producers, songwriters and vocalists"
@@ -4013,14 +4013,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Pro",
-   "equipment_summary": {
-    "en": "Drumkit (with cymbals), bass and guitar amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
    },
    "best_for": {
     "en": "Large group practice"
@@ -4227,14 +4227,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Pro",
-   "equipment_summary": {
-    "en": "Drumkit (with cymbals), bass and guitar amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
    },
    "best_for": {
     "en": "Large group practice"
@@ -4436,11 +4436,11 @@
     "name": "Podcast"
    },
    "required_verification_level": 2,
+   "excluded_equipment": null,
    "tier": "Standard",
    "equipment_summary": {
     "en": "RØDECaster Pro unit, microphones and studio headphones"
    },
-   "excluded_equipment": null,
    "best_for": {
     "en": "Solos, dial-ins, group discussions or interviews"
    }
@@ -4641,14 +4641,14 @@
     "name": "Recording"
    },
    "required_verification_level": 2,
-   "tier": "Lite",
-   "equipment_summary": {
-    "en": "Audio interface, midi keyboard, microphone, monitors"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
     "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
     "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Lite",
+   "equipment_summary": {
+    "en": "Audio interface, midi keyboard, microphone, monitors"
    },
    "best_for": {
     "en": "Space for demo creation and songwriting"
@@ -4850,11 +4850,11 @@
     "name": "Podcast"
    },
    "required_verification_level": 2,
+   "excluded_equipment": null,
    "tier": "Standard",
    "equipment_summary": {
     "en": "RØDECaster Pro unit, microphones and studio headphones"
    },
-   "excluded_equipment": null,
    "best_for": {
     "en": "Solos, dial-ins, group discussions or interviews"
    }
@@ -5060,14 +5060,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Pro",
-   "equipment_summary": {
-    "en": "Drumkit (with cymbals), bass and guitar amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
    },
    "best_for": {
     "en": "Large group practice"
@@ -5274,14 +5274,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Pro",
-   "equipment_summary": {
-    "en": "Drumkit (with cymbals), bass and guitar amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
    },
    "best_for": {
     "en": "Large group practice"
@@ -5488,14 +5488,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Lite",
-   "equipment_summary": {
-    "en": "Drumkit + cymbals, PA system, no amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<div><ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
     "es": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Lite",
+   "equipment_summary": {
+    "en": "Drumkit + cymbals, PA system, no amps"
    },
    "best_for": {
     "en": "Solo or duo practice"
@@ -5697,11 +5697,11 @@
     "name": "Podcast"
    },
    "required_verification_level": 2,
+   "excluded_equipment": null,
    "tier": "Standard",
    "equipment_summary": {
     "en": "RØDECaster Pro unit, microphones and studio headphones"
    },
-   "excluded_equipment": null,
    "best_for": {
     "en": "Solos, dial-ins, group discussions or interviews"
    }
@@ -5905,11 +5905,11 @@
     "name": "DJ"
    },
    "required_verification_level": 2,
+   "excluded_equipment": {},
    "tier": "Vinyl",
    "equipment_summary": {
     "en": "Turntables and Allen & Heath mixer"
    },
-   "excluded_equipment": {},
    "best_for": {
     "en": "Vinyl-only sets"
    }
@@ -6115,14 +6115,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Pro",
-   "equipment_summary": {
-    "en": "Drumkit (with cymbals), bass and guitar amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<ul><li>Hi-hat clutch (Recommended)</li></ul>",
     "es": "<ul><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "Drumkit (with cymbals), bass and guitar amps"
    },
    "best_for": {
     "en": "Large group practice"
@@ -6329,14 +6329,14 @@
     "name": "Recording"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "Audio interface, midi keyboard, microphone, monitors"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
     "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
     "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "Audio interface, midi keyboard, microphone, monitors"
    },
    "best_for": {
     "en": "Producers and/or songwriters"
@@ -6543,14 +6543,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Lite",
-   "equipment_summary": {
-    "en": "Drumkit + cymbals, PA system, no amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<div><ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
     "es": "<ul><li>Guitar and bass amps</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Lite",
+   "equipment_summary": {
+    "en": "Drumkit + cymbals, PA system, no amps"
    },
    "best_for": {
     "en": "Solo or duo practice"
@@ -6757,14 +6757,14 @@
     "name": "Rehearsal"
    },
    "required_verification_level": 2,
-   "tier": "Standard",
-   "equipment_summary": {
-    "en": "Drumkit (no cymbals), bass and guitar amps"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>",
     "en": "<div><ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul></div>",
     "es": "<ul><li>Cymbals</li><li>Hi-hat clutch (Recommended)</li></ul>"
+   },
+   "tier": "Standard",
+   "equipment_summary": {
+    "en": "Drumkit (no cymbals), bass and guitar amps"
    },
    "best_for": {
     "en": "Small group practice"
@@ -6966,11 +6966,11 @@
     "name": "Podcast"
    },
    "required_verification_level": 2,
+   "excluded_equipment": null,
    "tier": "Standard",
    "equipment_summary": {
     "en": "RØDECaster Pro unit, microphones and studio headphones"
    },
-   "excluded_equipment": null,
    "best_for": {
     "en": "Solos, dial-ins, group discussions or interviews"
    }
@@ -7176,14 +7176,14 @@
     "name": "Recording"
    },
    "required_verification_level": 2,
-   "tier": "Pro",
-   "equipment_summary": {
-    "en": "All Standard studio equipment, plus a curtained vocal booth"
-   },
    "excluded_equipment": {
     "de": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>",
     "en": "<div><ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul></div>",
     "es": "<ul><li>Laptop, Mouse + Keyboard</li><li>USB-C/ USB-A cables</li><li>1/4 inch headphone adaptor</li></ul>"
+   },
+   "tier": "Pro",
+   "equipment_summary": {
+    "en": "All Standard studio equipment, plus a curtained vocal booth"
    },
    "best_for": {
     "en": "Producers, songwriters and vocalists"
